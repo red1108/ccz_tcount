@@ -10,9 +10,11 @@ This repository accompanies *Which CCZ Circuits Require the Most T Gates?* It al
 
 ## Quick start
 
-Use Python 3.11 or newer. From a checkout of this repository:
+Use Python 3.11 or newer. Clone the repository and install the local package:
 
 ```sh
+git clone https://github.com/red1108/ccz_tcount.git
+cd ccz_tcount
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -e .

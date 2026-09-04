@@ -12,11 +12,9 @@ make check-records
 
 The custom-input tests include independent dense tensor comparisons and exhaustive small-circuit phase checks modulo Clifford corrections. Benchmark reproduction remains available through `scripts/reproduce.py`.
 
-To connect the prepared local repository after creating an empty GitHub repository:
+The repository is [red1108/ccz_tcount](https://github.com/red1108/ccz_tcount).
+The `origin` remote points to this repository. After committing and checking changes, publish them with:
 
 ```sh
-git remote add origin <YOUR_GITHUB_REPOSITORY_URL>
-git push -u origin main
+git push origin main
 ```
-
-Replace the URL placeholder with the new repository's HTTPS or SSH URL. No remote is configured by these source files.
