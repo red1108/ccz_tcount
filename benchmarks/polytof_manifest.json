@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "polytof": {
+      "url": "https://github.com/ZIB-IOL/polytof",
+      "commit": "1ab70261c749efe0be1d459ac00b7ffe2beb876e"
+    },
+    "vandaele_circuits": {
+      "url": "https://github.com/VivienVandaele/quantum-circuit-optimization",
+      "commit": "231e6fe9f92d5bb1ebf7459c2a9233f5e74d148e"
+    },
+    "alphatensor_quantum": {
+      "url": "https://github.com/google-deepmind/alphatensor_quantum",
+      "commit": "3def81a2a42666416a4a8041eea6e1bc98bc8e9f"
+    },
+    "vartodd": {
+      "url": "https://github.com/DanilkaFish/VarTodd",
+      "commit": "9c743e0e7440e6444d6f4a9230c51c1bdac6badb"
+    }
+  },
+  "classes": {
+    "C0": "d = 3m and the released phase witness has q = 6m+1 = 2d+1",
+    "C1": "d = 3m-1 and the released phase witness has q = 6m-1 = 2d+1",
+    "L": "the released phase witness meets the active-dimension lower bound q = 2d+1, but is not C0 or C1",
+    "U": "the released phase witness is an upper bound not certified by C0, C1, or q = 2d+1"
+  },
+  "expected_summaries": {
+    "standard25": {
+      "total": 25,
+      "q_certified": 17,
+      "C0": 8,
+      "C1": 2,
+      "L": 7,
+      "U": 8
+    },
+    "extended35": {
+      "total": 35,
+      "q_certified": 30,
+      "C0": 25,
+      "C1": 0,
+      "L": 5,
+      "U": 5
+    }
+  },
+  "benchmarks": [
+    {"suite":"standard25","tensor_id":"0800","name":"Adder_8","n":61,"m":27,"q":117,"d":52,"class":"U"},
+    {"suite":"standard25","tensor_id":"0801","name":"Barenco Tof_3","n":8,"m":2,"q":13,"d":6,"class":"C0"},
+    {"suite":"standard25","tensor_id":"0802","name":"Barenco Tof_4","n":14,"m":4,"q":23,"d":11,"class":"C1"},
+    {"suite":"standard25","tensor_id":"0803","name":"Barenco Tof_5","n":20,"m":6,"q":33,"d":16,"class":"L"},
+    {"suite":"standard25","tensor_id":"0804","name":"Barenco Tof_10","n":50,"m":16,"q":83,"d":41,"class":"L"},
+    {"suite":"standard25","tensor_id":"0805","name":"CSLA MUX_3","n":21,"m":8,"q":39,"d":19,"class":"L"},
+    {"suite":"standard25","tensor_id":"0806","name":"CSUM MUX_9","n":42,"m":14,"q":71,"d":35,"class":"L"},
+    {"suite":"standard25","tensor_id":"0807","name":"Grover_5","n":77,"m":25,"q":143,"d":71,"class":"L"},
+    {"suite":"standard25","tensor_id":"0808","name":"Ham15 (low)","n":46,"m":17,"q":73,"d":35,"class":"U"},
+    {"suite":"standard25","tensor_id":"0809","name":"Ham15 (med)","n":71,"m":33,"q":137,"d":64,"class":"U","latest_q":135,"latest_source":"arXiv:2603.29894v2, Table II"},
+    {"suite":"standard25","tensor_id":"0810","name":"Ham15 (high)","n":351,"m":155,"q":643,"d":287,"class":"U","latest_q":631,"latest_source":"arXiv:2603.29894v2, Table II"},
+    {"suite":"standard25","tensor_id":"0811","name":"HWB_6","n":27,"m":10,"q":51,"d":24,"class":"U"},
+    {"suite":"standard25","tensor_id":"0812","name":"Mod 5_4","n":5,"m":1,"q":7,"d":3,"class":"C0"},
+    {"suite":"standard25","tensor_id":"0813","name":"Mod Adder_1024","n":332,"m":128,"q":573,"d":286,"class":"L"},
+    {"suite":"standard25","tensor_id":"0814","name":"Mod Mult_55","n":12,"m":3,"q":17,"d":8,"class":"C1"},
+    {"suite":"standard25","tensor_id":"0815","name":"Mod Red_21","n":28,"m":11,"q":51,"d":24,"class":"U"},
+    {"suite":"standard25","tensor_id":"0816","name":"QCLA Adder_10","n":61,"m":24,"q":107,"d":50,"class":"U"},
+    {"suite":"standard25","tensor_id":"0117","name":"QCLA Com_7","n":42,"m":12,"q":59,"d":29,"class":"L"},
+    {"suite":"standard25","tensor_id":"0818","name":"QCLA Mod_7","n":84,"m":37,"q":153,"d":72,"class":"U"},
+    {"suite":"standard25","tensor_id":"0819","name":"RC Adder_6","n":24,"m":6,"q":37,"d":18,"class":"C0"},
+    {"suite":"standard25","tensor_id":"0820","name":"Tof_3","n":7,"m":2,"q":13,"d":6,"class":"C0"},
+    {"suite":"standard25","tensor_id":"0821","name":"Tof_4","n":11,"m":3,"q":19,"d":9,"class":"C0"},
+    {"suite":"standard25","tensor_id":"0822","name":"Tof_5","n":15,"m":4,"q":25,"d":12,"class":"C0"},
+    {"suite":"standard25","tensor_id":"0823","name":"Tof_10","n":35,"m":9,"q":55,"d":27,"class":"C0"},
+    {"suite":"standard25","tensor_id":"0824","name":"VBE Adder_3","n":14,"m":3,"q":19,"d":9,"class":"C0"},
+    {"suite":"extended35","tensor_id":"0134","name":"Cuccaro Adder n=3","n":8,"m":2,"q":13,"d":6,"class":"C0"},
+    {"suite":"extended35","tensor_id":"0135","name":"Cuccaro Adder n=4","n":12,"m":3,"q":19,"d":9,"class":"C0"},
+    {"suite":"extended35","tensor_id":"0136","name":"Cuccaro Adder n=5","n":16,"m":4,"q":25,"d":12,"class":"C0"},
+    {"suite":"extended35","tensor_id":"0137","name":"Cuccaro Adder n=6","n":20,"m":5,"q":31,"d":15,"class":"C0"},
+    {"suite":"extended35","tensor_id":"0138","name":"Cuccaro Adder n=7","n":24,"m":6,"q":37,"d":18,"class":"C0"},
+    {"suite":"extended35","tensor_id":"0139","name":"Cuccaro Adder n=8","n":28,"m":7,"q":43,"d":21,"class":"C0"},
+    {"suite":"extended35","tensor_id":"0140","name":"Cuccaro Adder n=9","n":32,"m":8,"q":49,"d":24,"class":"C0"},
+    {"suite":"extended35","tensor_id":"0141","name":"Cuccaro Adder n=10","n":36,"m":9,"q":55,"d":27,"class":"C0"},
+    {"suite":"extended35","tensor_id":"0142","name":"Basis Change p=4 o=3","n":27,"m":8,"q":41,"d":20,"class":"L"},
+    {"suite":"extended35","tensor_id":"0143","name":"Basis Change p=4 o=4","n":39,"m":12,"q":61,"d":30,"class":"L"},
+    {"suite":"extended35","tensor_id":"0144","name":"Basis Change p=4 o=5","n":51,"m":16,"q":81,"d":40,"class":"L"},
+    {"suite":"extended35","tensor_id":"0145","name":"Basis Change p=5 o=3","n":39,"m":12,"q":61,"d":30,"class":"L"},
+    {"suite":"extended35","tensor_id":"0146","name":"Basis Change p=5 o=4","n":56,"m":18,"q":91,"d":45,"class":"L"},
+    {"suite":"extended35","tensor_id":"0147","name":"Basis Change p=6 o=3","n":51,"m":16,"q":85,"d":40,"class":"U"},
+    {"suite":"extended35","tensor_id":"0148","name":"Basis Change p=7 o=3","n":63,"m":20,"q":105,"d":50,"class":"U"},
+    {"suite":"extended35","tensor_id":"0149","name":"Hamming Weight n=4","n":9,"m":3,"q":19,"d":9,"class":"C0"},
+    {"suite":"extended35","tensor_id":"0150","name":"Hamming Weight n=5","n":10,"m":3,"q":19,"d":9,"class":"C0"},
+    {"suite":"extended35","tensor_id":"0151","name":"Hamming Weight n=6","n":12,"m":4,"q":25,"d":12,"class":"C0"},
+    {"suite":"extended35","tensor_id":"0152","name":"Hamming Weight n=7","n":13,"m":4,"q":25,"d":12,"class":"C0"},
+    {"suite":"extended35","tensor_id":"0153","name":"Hamming Weight n=8","n":21,"m":7,"q":43,"d":21,"class":"C0"},
+    {"suite":"extended35","tensor_id":"0154","name":"Hamming Weight n=9","n":22,"m":7,"q":43,"d":21,"class":"C0"},
+    {"suite":"extended35","tensor_id":"0155","name":"Hamming Weight n=10","n":24,"m":8,"q":49,"d":24,"class":"C0"},
+    {"suite":"extended35","tensor_id":"0156","name":"Hamming Weight n=11","n":25,"m":8,"q":49,"d":24,"class":"C0"},
+    {"suite":"extended35","tensor_id":"0157","name":"Hamming Weight n=12","n":30,"m":10,"q":61,"d":30,"class":"C0"},
+    {"suite":"extended35","tensor_id":"0158","name":"Hamming Weight n=13","n":31,"m":10,"q":61,"d":30,"class":"C0"},
+    {"suite":"extended35","tensor_id":"0159","name":"Hamming Weight n=14","n":33,"m":11,"q":67,"d":33,"class":"C0"},
+    {"suite":"extended35","tensor_id":"0160","name":"Hamming Weight n=15","n":34,"m":11,"q":67,"d":33,"class":"C0"},
+    {"suite":"extended35","tensor_id":"0161","name":"Hamming Weight n=16","n":45,"m":15,"q":91,"d":45,"class":"C0"},
+    {"suite":"extended35","tensor_id":"0162","name":"Hamming Weight n=17","n":46,"m":15,"q":91,"d":45,"class":"C0"},
+    {"suite":"extended35","tensor_id":"0163","name":"Hamming Weight n=18","n":48,"m":16,"q":97,"d":48,"class":"C0"},
+    {"suite":"extended35","tensor_id":"0164","name":"Hamming Weight n=19","n":49,"m":16,"q":97,"d":48,"class":"C0"},
+    {"suite":"extended35","tensor_id":"0165","name":"Hamming Weight n=20","n":54,"m":18,"q":109,"d":54,"class":"C0"},
+    {"suite":"extended35","tensor_id":"0166","name":"Unary Iteration n=3","n":20,"m":7,"q":31,"d":14,"class":"U"},
+    {"suite":"extended35","tensor_id":"0167","name":"Unary Iteration n=4","n":38,"m":15,"q":63,"d":27,"class":"U"},
+    {"suite":"extended35","tensor_id":"0168","name":"Unary Iteration n=5","n":72,"m":31,"q":127,"d":52,"class":"U"}
+  ]
+}

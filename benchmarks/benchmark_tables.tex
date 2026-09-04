@@ -1,0 +1,46 @@
+\begin{table}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3.5pt}
+\renewcommand{\arraystretch}{0.95}
+\caption{Certificates for the 25 standard pure-cubic benchmark targets.  The minimum $T$-count is odd and at least the displayed lower bound; ``Open'' means these bounds do not certify it.  A checkmark denotes a prior Z3 certificate \cite{RuizEtAl2025}.  Daggers mark reported VarTODD upper bounds \cite{FisherEtAl2026}, whose witnesses we have not rechecked; the remaining counts use verified Polytof witnesses \cite{KhoruzhiiTensor2026,PolytofArtifact2026}.}
+\label{tab:benchmark-certificates}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lrrrrcl@{}}
+\toprule
+Target
+  & $m$
+  & $d$
+  & \shortstack{Best reported\\$T$-count}
+  & \shortstack{Lower bound\\$2d+1$}
+  & \shortstack{Prior\\certificate}
+  & Conclusion \\
+\midrule
+Barenco Tof$_3$      & 2   & 6   & 13  & 13  & $\checkmark$ (Z3) & Exact ($d=3m$) \\
+Barenco Tof$_4$      & 4   & 11  & 23  & 23  & --                  & Exact ($d=3m-1$) \\
+Barenco Tof$_5$      & 6   & 16  & 33  & 33  & --                  & Exact (lower bound met) \\
+Barenco Tof$_{10}$   & 16  & 41  & 83  & 83  & --                  & Exact (lower bound met) \\
+CSLA MUX$_3$         & 8   & 19  & 39  & 39  & --                  & Exact (lower bound met) \\
+CSUM MUX$_9$         & 14  & 35  & 71  & 71  & --                  & Exact (lower bound met) \\
+Grover$_5$           & 25  & 71  & 143 & 143 & --                  & Exact (lower bound met) \\
+Mod $5_4$            & 1   & 3   & 7   & 7   & $\checkmark$ (Z3) & Exact ($d=3m$) \\
+Mod Adder$_{1024}$   & 128 & 286 & 573 & 573 & --                  & Exact (lower bound met) \\
+Mod Mult$_{55}$      & 3   & 8   & 17  & 17  & $\checkmark$ (Z3) & Exact ($d=3m-1$) \\
+QCLA Com$_7$         & 12  & 29  & 59  & 59  & --                  & Exact (lower bound met) \\
+RC Adder$_6$         & 6   & 18  & 37  & 37  & --                  & Exact ($d=3m$) \\
+Tof$_3$              & 2   & 6   & 13  & 13  & $\checkmark$ (Z3) & Exact ($d=3m$) \\
+Tof$_4$              & 3   & 9   & 19  & 19  & $\checkmark$ (Z3) & Exact ($d=3m$) \\
+Tof$_5$              & 4   & 12  & 25  & 25  & --                  & Exact ($d=3m$) \\
+Tof$_{10}$           & 9   & 27  & 55  & 55  & --                  & Exact ($d=3m$) \\
+VBE Adder$_3$        & 3   & 9   & 19  & 19  & $\checkmark$ (Z3) & Exact ($d=3m$) \\
+\midrule
+Adder$_8$            & 27  & 52  & 117           & 105 & -- & Open \\
+Ham$_{15}$ (low)     & 17  & 35  & 73            & 71  & -- & Open \\
+Ham$_{15}$ (medium)  & 33  & 64  & $135^\dagger$ & 129 & -- & Open \\
+Ham$_{15}$ (high)    & 155 & 287 & $631^\dagger$ & 575 & -- & Open \\
+HWB$_6$              & 10  & 24  & 51            & 49  & -- & Open \\
+Mod Red$_{21}$       & 11  & 24  & 51            & 49  & -- & Open \\
+QCLA Adder$_{10}$    & 24  & 50  & 107           & 101 & -- & Open \\
+QCLA Mod$_7$         & 37  & 72  & 153           & 145 & -- & Open \\
+\bottomrule
+\end{tabular*}
+\end{table}

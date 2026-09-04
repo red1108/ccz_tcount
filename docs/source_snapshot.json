@@ -1,0 +1,16 @@
+{
+  "imported_files_sha256": {
+    "benchmarks/benchmark_tables.tex": "781f0beeacf8d44d38a8ce77680e64adc63bc296dfe92e8026cefb215b905fde",
+    "benchmarks/polytof_manifest.json": "bdb9acdfdf23e7efaafd4194d78885c105c11a6073f8e6b6f3ec02f450c8b6e8",
+    "benchmarks/test_verify_polytof.py": "d25fa5b8fbaa6ed950b5e7330a58d475f9ea742e77fe30e5128139bbef712c8b",
+    "benchmarks/verify_polytof.py": "8b490178e8a382faccec8323191a99e7082458c829b6ed6324fa4cfa96dd2c89"
+  },
+  "manuscript_sha256": {
+    "main.pdf": "2ba9c59476bfedb75bf1b02c22c5578529e54bcd972af40e98c7371a816b4c7f",
+    "main.tex": "4240d2dd84a6df69febf57f08374aca492bb9f1865514dd59d923ba729325bce"
+  },
+  "note": "Hashes identify the local manuscript snapshot used to prepare this verification artifact. The full manuscript is not bundled.",
+  "paper_title": "Which CCZ Circuits Require the Most T Gates?",
+  "schema_version": 1,
+  "snapshot_at": "2026-09-04T21:21:58+00:00"
+}
