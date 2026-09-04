@@ -10,3 +10,4 @@ reproduce:
 
 check-records:
 	$(PYTHON) scripts/reproduce.py --check-records records/2026-09-04
+	$(PYTHON) scripts/reproduce.py --check-records records/2026-09-04-clean-checkout

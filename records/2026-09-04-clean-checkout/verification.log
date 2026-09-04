@@ -1,0 +1,3 @@
+SUMMARY extended35: total=35 q_exact=30 C0=25 C1=0 L=5 U=5
+SUMMARY standard25: total=25 q_exact=17 C0=8 C1=2 L=7 U=8
+PASS: witness lengths, full signatures, active dimensions, classes, and suite summaries match the manifest.

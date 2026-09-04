@@ -36,6 +36,7 @@ The runner refuses to overwrite an existing record. All saved commands use porta
 ## Inspect the recorded evidence
 
 - [Run summary](records/2026-09-04/summary.md): aggregate results and verification scope.
+- [Fresh-checkout reproduction](records/2026-09-04-clean-checkout/summary.md): a second run from a separate local Git clone, matching all results and input hashes.
 - [Per-target JSON](records/2026-09-04/verification.json) and [CSV](records/2026-09-04/results.csv): all 60 witness lengths, active dimensions, bounds, and classifications.
 - [Test log](records/2026-09-04/tests.log) and [verifier log](records/2026-09-04/verification.log): actual subprocess output and exit status in `run.json`.
 - [Input provenance](records/2026-09-04/inputs.json): upstream paths, file sizes, SHA-256 hashes, and Git blob IDs for every consumed tensor, transform, and witness.
