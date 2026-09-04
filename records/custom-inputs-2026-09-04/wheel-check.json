@@ -1,0 +1,20 @@
+{
+  "bounded_require_exact_exit_code": 1,
+  "ccz_count": 3,
+  "completed_at": "2026-09-04T21:48:55+00:00",
+  "installed_outside_checkout": true,
+  "kind": "wheel_installation_check",
+  "license_expression": "MIT",
+  "numpy_installed": false,
+  "phase_count": 17,
+  "schema_version": 1,
+  "source_sha256": {
+    "ccz_certify/__main__.py": "fc0f627bf0d094faff2401376e7a2527666cf9d8663e96e0e57aa2c8f2751aa9",
+    "ccz_certify/core.py": "66f9efbe71af412c32a0b4f538904022bd88b332020e9c4f1ff2c173dea39b13",
+    "pyproject.toml": "613b5316fdc216813840a5b28260d43db7af3fea6673f70e87351c8900ecccf6",
+    "tests/test_certify.py": "c9c8e82e4db1009613aedf05ac15ae30df5e8e5fd6a11e981944b2c3104c6872"
+  },
+  "status": "passed",
+  "wheel_filename": "ccz_certify-0.1.0-py3-none-any.whl",
+  "wheel_sha256": "52e403cb3872ee9ba6468d657833e1c1caf0e2ddde589583321b22cd70ed405c"
+}

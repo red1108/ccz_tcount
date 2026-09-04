@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ccz-certify"
+version = "0.1.0"
+description = "Verifiable T-count bounds for fixed pure-cubic quantum circuit targets"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+benchmarks = ["numpy==2.3.5"]
+
+[project.scripts]
+ccz-certify = "ccz_certify.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["ccz_certify*"]

@@ -1,0 +1,2608 @@
+{
+  "completed_at": "2026-09-04T21:45:50+00:00",
+  "duration_seconds": 5.47,
+  "environment": {
+    "numpy": "2.3.5",
+    "python": "3.12.14"
+  },
+  "exact_phase_counts": 47,
+  "kind": "custom_api_crosscheck",
+  "polytof_commit": "1ab70261c749efe0be1d459ac00b7ffe2beb876e",
+  "rows": [
+    {
+      "active_dimension": 52,
+      "legacy_full_signature_check": true,
+      "n": 61,
+      "name": "Adder_8",
+      "phase_exact": false,
+      "phase_lower": 105,
+      "phase_upper": 117,
+      "released_q": 117,
+      "tensor_id": "0800"
+    },
+    {
+      "active_dimension": 6,
+      "legacy_full_signature_check": true,
+      "n": 8,
+      "name": "Barenco Tof_3",
+      "phase_exact": true,
+      "phase_lower": 13,
+      "phase_upper": 13,
+      "released_q": 13,
+      "tensor_id": "0801"
+    },
+    {
+      "active_dimension": 11,
+      "legacy_full_signature_check": true,
+      "n": 14,
+      "name": "Barenco Tof_4",
+      "phase_exact": true,
+      "phase_lower": 23,
+      "phase_upper": 23,
+      "released_q": 23,
+      "tensor_id": "0802"
+    },
+    {
+      "active_dimension": 16,
+      "legacy_full_signature_check": true,
+      "n": 20,
+      "name": "Barenco Tof_5",
+      "phase_exact": true,
+      "phase_lower": 33,
+      "phase_upper": 33,
+      "released_q": 33,
+      "tensor_id": "0803"
+    },
+    {
+      "active_dimension": 41,
+      "legacy_full_signature_check": true,
+      "n": 50,
+      "name": "Barenco Tof_10",
+      "phase_exact": true,
+      "phase_lower": 83,
+      "phase_upper": 83,
+      "released_q": 83,
+      "tensor_id": "0804"
+    },
+    {
+      "active_dimension": 19,
+      "legacy_full_signature_check": true,
+      "n": 21,
+      "name": "CSLA MUX_3",
+      "phase_exact": true,
+      "phase_lower": 39,
+      "phase_upper": 39,
+      "released_q": 39,
+      "tensor_id": "0805"
+    },
+    {
+      "active_dimension": 35,
+      "legacy_full_signature_check": true,
+      "n": 42,
+      "name": "CSUM MUX_9",
+      "phase_exact": true,
+      "phase_lower": 71,
+      "phase_upper": 71,
+      "released_q": 71,
+      "tensor_id": "0806"
+    },
+    {
+      "active_dimension": 71,
+      "legacy_full_signature_check": true,
+      "n": 77,
+      "name": "Grover_5",
+      "phase_exact": true,
+      "phase_lower": 143,
+      "phase_upper": 143,
+      "released_q": 143,
+      "tensor_id": "0807"
+    },
+    {
+      "active_dimension": 35,
+      "legacy_full_signature_check": true,
+      "n": 46,
+      "name": "Ham15 (low)",
+      "phase_exact": false,
+      "phase_lower": 71,
+      "phase_upper": 73,
+      "released_q": 73,
+      "tensor_id": "0808"
+    },
+    {
+      "active_dimension": 64,
+      "legacy_full_signature_check": true,
+      "n": 71,
+      "name": "Ham15 (med)",
+      "phase_exact": false,
+      "phase_lower": 129,
+      "phase_upper": 137,
+      "released_q": 137,
+      "tensor_id": "0809"
+    },
+    {
+      "active_dimension": 287,
+      "legacy_full_signature_check": true,
+      "n": 351,
+      "name": "Ham15 (high)",
+      "phase_exact": false,
+      "phase_lower": 575,
+      "phase_upper": 643,
+      "released_q": 643,
+      "tensor_id": "0810"
+    },
+    {
+      "active_dimension": 24,
+      "legacy_full_signature_check": true,
+      "n": 27,
+      "name": "HWB_6",
+      "phase_exact": false,
+      "phase_lower": 49,
+      "phase_upper": 51,
+      "released_q": 51,
+      "tensor_id": "0811"
+    },
+    {
+      "active_dimension": 3,
+      "legacy_full_signature_check": true,
+      "n": 5,
+      "name": "Mod 5_4",
+      "phase_exact": true,
+      "phase_lower": 7,
+      "phase_upper": 7,
+      "released_q": 7,
+      "tensor_id": "0812"
+    },
+    {
+      "active_dimension": 286,
+      "legacy_full_signature_check": true,
+      "n": 332,
+      "name": "Mod Adder_1024",
+      "phase_exact": true,
+      "phase_lower": 573,
+      "phase_upper": 573,
+      "released_q": 573,
+      "tensor_id": "0813"
+    },
+    {
+      "active_dimension": 8,
+      "legacy_full_signature_check": true,
+      "n": 12,
+      "name": "Mod Mult_55",
+      "phase_exact": true,
+      "phase_lower": 17,
+      "phase_upper": 17,
+      "released_q": 17,
+      "tensor_id": "0814"
+    },
+    {
+      "active_dimension": 24,
+      "legacy_full_signature_check": true,
+      "n": 28,
+      "name": "Mod Red_21",
+      "phase_exact": false,
+      "phase_lower": 49,
+      "phase_upper": 51,
+      "released_q": 51,
+      "tensor_id": "0815"
+    },
+    {
+      "active_dimension": 50,
+      "legacy_full_signature_check": true,
+      "n": 61,
+      "name": "QCLA Adder_10",
+      "phase_exact": false,
+      "phase_lower": 101,
+      "phase_upper": 107,
+      "released_q": 107,
+      "tensor_id": "0816"
+    },
+    {
+      "active_dimension": 29,
+      "legacy_full_signature_check": true,
+      "n": 42,
+      "name": "QCLA Com_7",
+      "phase_exact": true,
+      "phase_lower": 59,
+      "phase_upper": 59,
+      "released_q": 59,
+      "tensor_id": "0117"
+    },
+    {
+      "active_dimension": 72,
+      "legacy_full_signature_check": true,
+      "n": 84,
+      "name": "QCLA Mod_7",
+      "phase_exact": false,
+      "phase_lower": 145,
+      "phase_upper": 153,
+      "released_q": 153,
+      "tensor_id": "0818"
+    },
+    {
+      "active_dimension": 18,
+      "legacy_full_signature_check": true,
+      "n": 24,
+      "name": "RC Adder_6",
+      "phase_exact": true,
+      "phase_lower": 37,
+      "phase_upper": 37,
+      "released_q": 37,
+      "tensor_id": "0819"
+    },
+    {
+      "active_dimension": 6,
+      "legacy_full_signature_check": true,
+      "n": 7,
+      "name": "Tof_3",
+      "phase_exact": true,
+      "phase_lower": 13,
+      "phase_upper": 13,
+      "released_q": 13,
+      "tensor_id": "0820"
+    },
+    {
+      "active_dimension": 9,
+      "legacy_full_signature_check": true,
+      "n": 11,
+      "name": "Tof_4",
+      "phase_exact": true,
+      "phase_lower": 19,
+      "phase_upper": 19,
+      "released_q": 19,
+      "tensor_id": "0821"
+    },
+    {
+      "active_dimension": 12,
+      "legacy_full_signature_check": true,
+      "n": 15,
+      "name": "Tof_5",
+      "phase_exact": true,
+      "phase_lower": 25,
+      "phase_upper": 25,
+      "released_q": 25,
+      "tensor_id": "0822"
+    },
+    {
+      "active_dimension": 27,
+      "legacy_full_signature_check": true,
+      "n": 35,
+      "name": "Tof_10",
+      "phase_exact": true,
+      "phase_lower": 55,
+      "phase_upper": 55,
+      "released_q": 55,
+      "tensor_id": "0823"
+    },
+    {
+      "active_dimension": 9,
+      "legacy_full_signature_check": true,
+      "n": 14,
+      "name": "VBE Adder_3",
+      "phase_exact": true,
+      "phase_lower": 19,
+      "phase_upper": 19,
+      "released_q": 19,
+      "tensor_id": "0824"
+    },
+    {
+      "active_dimension": 6,
+      "legacy_full_signature_check": true,
+      "n": 8,
+      "name": "Cuccaro Adder n=3",
+      "phase_exact": true,
+      "phase_lower": 13,
+      "phase_upper": 13,
+      "released_q": 13,
+      "tensor_id": "0134"
+    },
+    {
+      "active_dimension": 9,
+      "legacy_full_signature_check": true,
+      "n": 12,
+      "name": "Cuccaro Adder n=4",
+      "phase_exact": true,
+      "phase_lower": 19,
+      "phase_upper": 19,
+      "released_q": 19,
+      "tensor_id": "0135"
+    },
+    {
+      "active_dimension": 12,
+      "legacy_full_signature_check": true,
+      "n": 16,
+      "name": "Cuccaro Adder n=5",
+      "phase_exact": true,
+      "phase_lower": 25,
+      "phase_upper": 25,
+      "released_q": 25,
+      "tensor_id": "0136"
+    },
+    {
+      "active_dimension": 15,
+      "legacy_full_signature_check": true,
+      "n": 20,
+      "name": "Cuccaro Adder n=6",
+      "phase_exact": true,
+      "phase_lower": 31,
+      "phase_upper": 31,
+      "released_q": 31,
+      "tensor_id": "0137"
+    },
+    {
+      "active_dimension": 18,
+      "legacy_full_signature_check": true,
+      "n": 24,
+      "name": "Cuccaro Adder n=7",
+      "phase_exact": true,
+      "phase_lower": 37,
+      "phase_upper": 37,
+      "released_q": 37,
+      "tensor_id": "0138"
+    },
+    {
+      "active_dimension": 21,
+      "legacy_full_signature_check": true,
+      "n": 28,
+      "name": "Cuccaro Adder n=8",
+      "phase_exact": true,
+      "phase_lower": 43,
+      "phase_upper": 43,
+      "released_q": 43,
+      "tensor_id": "0139"
+    },
+    {
+      "active_dimension": 24,
+      "legacy_full_signature_check": true,
+      "n": 32,
+      "name": "Cuccaro Adder n=9",
+      "phase_exact": true,
+      "phase_lower": 49,
+      "phase_upper": 49,
+      "released_q": 49,
+      "tensor_id": "0140"
+    },
+    {
+      "active_dimension": 27,
+      "legacy_full_signature_check": true,
+      "n": 36,
+      "name": "Cuccaro Adder n=10",
+      "phase_exact": true,
+      "phase_lower": 55,
+      "phase_upper": 55,
+      "released_q": 55,
+      "tensor_id": "0141"
+    },
+    {
+      "active_dimension": 20,
+      "legacy_full_signature_check": true,
+      "n": 27,
+      "name": "Basis Change p=4 o=3",
+      "phase_exact": true,
+      "phase_lower": 41,
+      "phase_upper": 41,
+      "released_q": 41,
+      "tensor_id": "0142"
+    },
+    {
+      "active_dimension": 30,
+      "legacy_full_signature_check": true,
+      "n": 39,
+      "name": "Basis Change p=4 o=4",
+      "phase_exact": true,
+      "phase_lower": 61,
+      "phase_upper": 61,
+      "released_q": 61,
+      "tensor_id": "0143"
+    },
+    {
+      "active_dimension": 40,
+      "legacy_full_signature_check": true,
+      "n": 51,
+      "name": "Basis Change p=4 o=5",
+      "phase_exact": true,
+      "phase_lower": 81,
+      "phase_upper": 81,
+      "released_q": 81,
+      "tensor_id": "0144"
+    },
+    {
+      "active_dimension": 30,
+      "legacy_full_signature_check": true,
+      "n": 39,
+      "name": "Basis Change p=5 o=3",
+      "phase_exact": true,
+      "phase_lower": 61,
+      "phase_upper": 61,
+      "released_q": 61,
+      "tensor_id": "0145"
+    },
+    {
+      "active_dimension": 45,
+      "legacy_full_signature_check": true,
+      "n": 56,
+      "name": "Basis Change p=5 o=4",
+      "phase_exact": true,
+      "phase_lower": 91,
+      "phase_upper": 91,
+      "released_q": 91,
+      "tensor_id": "0146"
+    },
+    {
+      "active_dimension": 40,
+      "legacy_full_signature_check": true,
+      "n": 51,
+      "name": "Basis Change p=6 o=3",
+      "phase_exact": false,
+      "phase_lower": 81,
+      "phase_upper": 85,
+      "released_q": 85,
+      "tensor_id": "0147"
+    },
+    {
+      "active_dimension": 50,
+      "legacy_full_signature_check": true,
+      "n": 63,
+      "name": "Basis Change p=7 o=3",
+      "phase_exact": false,
+      "phase_lower": 101,
+      "phase_upper": 105,
+      "released_q": 105,
+      "tensor_id": "0148"
+    },
+    {
+      "active_dimension": 9,
+      "legacy_full_signature_check": true,
+      "n": 9,
+      "name": "Hamming Weight n=4",
+      "phase_exact": true,
+      "phase_lower": 19,
+      "phase_upper": 19,
+      "released_q": 19,
+      "tensor_id": "0149"
+    },
+    {
+      "active_dimension": 9,
+      "legacy_full_signature_check": true,
+      "n": 10,
+      "name": "Hamming Weight n=5",
+      "phase_exact": true,
+      "phase_lower": 19,
+      "phase_upper": 19,
+      "released_q": 19,
+      "tensor_id": "0150"
+    },
+    {
+      "active_dimension": 12,
+      "legacy_full_signature_check": true,
+      "n": 12,
+      "name": "Hamming Weight n=6",
+      "phase_exact": true,
+      "phase_lower": 25,
+      "phase_upper": 25,
+      "released_q": 25,
+      "tensor_id": "0151"
+    },
+    {
+      "active_dimension": 12,
+      "legacy_full_signature_check": true,
+      "n": 13,
+      "name": "Hamming Weight n=7",
+      "phase_exact": true,
+      "phase_lower": 25,
+      "phase_upper": 25,
+      "released_q": 25,
+      "tensor_id": "0152"
+    },
+    {
+      "active_dimension": 21,
+      "legacy_full_signature_check": true,
+      "n": 21,
+      "name": "Hamming Weight n=8",
+      "phase_exact": true,
+      "phase_lower": 43,
+      "phase_upper": 43,
+      "released_q": 43,
+      "tensor_id": "0153"
+    },
+    {
+      "active_dimension": 21,
+      "legacy_full_signature_check": true,
+      "n": 22,
+      "name": "Hamming Weight n=9",
+      "phase_exact": true,
+      "phase_lower": 43,
+      "phase_upper": 43,
+      "released_q": 43,
+      "tensor_id": "0154"
+    },
+    {
+      "active_dimension": 24,
+      "legacy_full_signature_check": true,
+      "n": 24,
+      "name": "Hamming Weight n=10",
+      "phase_exact": true,
+      "phase_lower": 49,
+      "phase_upper": 49,
+      "released_q": 49,
+      "tensor_id": "0155"
+    },
+    {
+      "active_dimension": 24,
+      "legacy_full_signature_check": true,
+      "n": 25,
+      "name": "Hamming Weight n=11",
+      "phase_exact": true,
+      "phase_lower": 49,
+      "phase_upper": 49,
+      "released_q": 49,
+      "tensor_id": "0156"
+    },
+    {
+      "active_dimension": 30,
+      "legacy_full_signature_check": true,
+      "n": 30,
+      "name": "Hamming Weight n=12",
+      "phase_exact": true,
+      "phase_lower": 61,
+      "phase_upper": 61,
+      "released_q": 61,
+      "tensor_id": "0157"
+    },
+    {
+      "active_dimension": 30,
+      "legacy_full_signature_check": true,
+      "n": 31,
+      "name": "Hamming Weight n=13",
+      "phase_exact": true,
+      "phase_lower": 61,
+      "phase_upper": 61,
+      "released_q": 61,
+      "tensor_id": "0158"
+    },
+    {
+      "active_dimension": 33,
+      "legacy_full_signature_check": true,
+      "n": 33,
+      "name": "Hamming Weight n=14",
+      "phase_exact": true,
+      "phase_lower": 67,
+      "phase_upper": 67,
+      "released_q": 67,
+      "tensor_id": "0159"
+    },
+    {
+      "active_dimension": 33,
+      "legacy_full_signature_check": true,
+      "n": 34,
+      "name": "Hamming Weight n=15",
+      "phase_exact": true,
+      "phase_lower": 67,
+      "phase_upper": 67,
+      "released_q": 67,
+      "tensor_id": "0160"
+    },
+    {
+      "active_dimension": 45,
+      "legacy_full_signature_check": true,
+      "n": 45,
+      "name": "Hamming Weight n=16",
+      "phase_exact": true,
+      "phase_lower": 91,
+      "phase_upper": 91,
+      "released_q": 91,
+      "tensor_id": "0161"
+    },
+    {
+      "active_dimension": 45,
+      "legacy_full_signature_check": true,
+      "n": 46,
+      "name": "Hamming Weight n=17",
+      "phase_exact": true,
+      "phase_lower": 91,
+      "phase_upper": 91,
+      "released_q": 91,
+      "tensor_id": "0162"
+    },
+    {
+      "active_dimension": 48,
+      "legacy_full_signature_check": true,
+      "n": 48,
+      "name": "Hamming Weight n=18",
+      "phase_exact": true,
+      "phase_lower": 97,
+      "phase_upper": 97,
+      "released_q": 97,
+      "tensor_id": "0163"
+    },
+    {
+      "active_dimension": 48,
+      "legacy_full_signature_check": true,
+      "n": 49,
+      "name": "Hamming Weight n=19",
+      "phase_exact": true,
+      "phase_lower": 97,
+      "phase_upper": 97,
+      "released_q": 97,
+      "tensor_id": "0164"
+    },
+    {
+      "active_dimension": 54,
+      "legacy_full_signature_check": true,
+      "n": 54,
+      "name": "Hamming Weight n=20",
+      "phase_exact": true,
+      "phase_lower": 109,
+      "phase_upper": 109,
+      "released_q": 109,
+      "tensor_id": "0165"
+    },
+    {
+      "active_dimension": 14,
+      "legacy_full_signature_check": true,
+      "n": 20,
+      "name": "Unary Iteration n=3",
+      "phase_exact": false,
+      "phase_lower": 29,
+      "phase_upper": 31,
+      "released_q": 31,
+      "tensor_id": "0166"
+    },
+    {
+      "active_dimension": 27,
+      "legacy_full_signature_check": true,
+      "n": 38,
+      "name": "Unary Iteration n=4",
+      "phase_exact": false,
+      "phase_lower": 55,
+      "phase_upper": 63,
+      "released_q": 63,
+      "tensor_id": "0167"
+    },
+    {
+      "active_dimension": 52,
+      "legacy_full_signature_check": true,
+      "n": 72,
+      "name": "Unary Iteration n=5",
+      "phase_exact": false,
+      "phase_lower": 105,
+      "phase_upper": 127,
+      "released_q": 127,
+      "tensor_id": "0168"
+    }
+  ],
+  "schema_version": 1,
+  "source_sha256": {
+    "benchmarks/polytof_manifest.json": "bdb9acdfdf23e7efaafd4194d78885c105c11a6073f8e6b6f3ec02f450c8b6e8",
+    "benchmarks/verify_polytof.py": "8b490178e8a382faccec8323191a99e7082458c829b6ed6324fa4cfa96dd2c89",
+    "ccz_certify/core.py": "66f9efbe71af412c32a0b4f538904022bd88b332020e9c4f1ff2c173dea39b13",
+    "scripts/check_custom_benchmarks.py": "4266b6bb9756cb29e9dd42cc93784ed68a7d4db03f2a8ef21381ef93704e0ab6"
+  },
+  "status": "passed",
+  "targets_checked": 60,
+  "upstream_inputs": {
+    "commit": "1ab70261c749efe0be1d459ac00b7ffe2beb876e",
+    "files": [
+      {
+        "bytes": 288080,
+        "git_blob": "d15654e8871771a746fc67a76ceb07131b6a5e2b",
+        "path": "data/paper/cpd/topp/0117-00012.npy",
+        "role": "ccz_witness",
+        "sha256": "7d92c55f4a2757d59a2b06d3a959815b26bafac72c257eccf3e011f6a1c0c085",
+        "tensor_id": "0117"
+      },
+      {
+        "bytes": 2558,
+        "git_blob": "bcbfc5143ef409655c2b90cba69ea9a6a8849019",
+        "path": "data/paper/waring/0117-00059.npy",
+        "role": "phase_witness",
+        "sha256": "e341bae04bf36d367d94e0c219d0316a0d7e159590884ddb4c6e45b77fe08dc0",
+        "tensor_id": "0117"
+      },
+      {
+        "bytes": 24224,
+        "git_blob": "30576e7481f64822a322d53ebc8c7dd216048c55",
+        "path": "data/tensors/0117.npy",
+        "role": "tensor",
+        "sha256": "8c6f4da35ab5a1f2570bb771d3126dffc560945b53e6c4dea5c9ca60e15e3324",
+        "tensor_id": "0117"
+      },
+      {
+        "bytes": 1892,
+        "git_blob": "51393f2ff29a8a4b3b6881b0117fc8aefa4e4171",
+        "path": "data/paper/transform/0117.npy",
+        "role": "transform",
+        "sha256": "45a8adff57966fcc66052cf870e9c857de0922df231ee10d80795801c7d03af0",
+        "tensor_id": "0117"
+      },
+      {
+        "bytes": 128,
+        "git_blob": "e8fe037162e6c5d3bc9a732db0b29facf3c45942",
+        "path": "data/paper/cpd/topp/0134-00002.npy",
+        "role": "ccz_witness",
+        "sha256": "6673ac8ffcfc2ea84457a86eab4f78361817a231fd95a7f7431df7f06012eff5",
+        "tensor_id": "0134"
+      },
+      {
+        "bytes": 184,
+        "git_blob": "e8688f0345ec67660980be9c881df48838f21d9e",
+        "path": "data/paper/waring/0134-00013.npy",
+        "role": "phase_witness",
+        "sha256": "54e2c7db86b67c6def6a62cf466018136b30922a8bacaf4a5b036d0d92f40ecf",
+        "tensor_id": "0134"
+      },
+      {
+        "bytes": 296,
+        "git_blob": "a66697bb614d8da91f69cdd29cf464e7f01941fa",
+        "path": "data/tensors/0134.npy",
+        "role": "tensor",
+        "sha256": "c5bca88645be375b91503c13e748d73ee99dd7e0a95fa66e384c44562e70458d",
+        "tensor_id": "0134"
+      },
+      {
+        "bytes": 144,
+        "git_blob": "481c6c79279025ee66c549e4f6311fee3f665168",
+        "path": "data/paper/transform/0134.npy",
+        "role": "transform",
+        "sha256": "95ac9a952252502656ae579ebbf92b2437283e4d6d864542fa976c62ae8d7b94",
+        "tensor_id": "0134"
+      },
+      {
+        "bytes": 152,
+        "git_blob": "76430fda144bcc18d2a9b40428454f8eadb4087a",
+        "path": "data/paper/cpd/topp/0135-00003.npy",
+        "role": "ccz_witness",
+        "sha256": "9934cb7cb03233adf196f4509508df924f441ef2ff781cfa0441f80a1a14f4fc",
+        "tensor_id": "0135"
+      },
+      {
+        "bytes": 308,
+        "git_blob": "97a534067fb63a8dbdbd3375ed67f7b4ccd3ebad",
+        "path": "data/paper/waring/0135-00019.npy",
+        "role": "phase_witness",
+        "sha256": "e5b257f4b0651f4712c89083f97b284a11c2410b089af3d4b04fee091bea8995",
+        "tensor_id": "0135"
+      },
+      {
+        "bytes": 656,
+        "git_blob": "81ba885a8f7a81fbc3a6f934c30dcb7fba01946a",
+        "path": "data/tensors/0135.npy",
+        "role": "tensor",
+        "sha256": "d0c039ffce709ea420c62ef06f034bea40b24e6f2459acf30fbac670d4637009",
+        "tensor_id": "0135"
+      },
+      {
+        "bytes": 224,
+        "git_blob": "16ed7f916bc7c86e64076496a2e8699f59927042",
+        "path": "data/paper/transform/0135.npy",
+        "role": "transform",
+        "sha256": "6793bfe35d37058474c385cdf244eeb86390c5cda53481c3d46d945706919e17",
+        "tensor_id": "0135"
+      },
+      {
+        "bytes": 176,
+        "git_blob": "b17e16a355dbc827c73cdaa225834af681ebb1bd",
+        "path": "data/paper/cpd/topp/0136-00004.npy",
+        "role": "ccz_witness",
+        "sha256": "78b05c3704532d1951914119f8d1c8b0da3d250dc538ded7362d9dcd95a9e338",
+        "tensor_id": "0136"
+      },
+      {
+        "bytes": 480,
+        "git_blob": "0d31b0257b45e05f32c2dc654292bc81eeca9e20",
+        "path": "data/paper/waring/0136-00025.npy",
+        "role": "phase_witness",
+        "sha256": "0a1f2300398233e45764c29a6a761fed5b95ce0528f4ff2e8ed5b2b23b117610",
+        "tensor_id": "0136"
+      },
+      {
+        "bytes": 1472,
+        "git_blob": "7bee98cdb9178d6067048e01399b907108404c82",
+        "path": "data/tensors/0136.npy",
+        "role": "tensor",
+        "sha256": "a27863f4425aa5c0b07963948e328a429d5bbd7c776e4e097ff265faa7cb3c7c",
+        "tensor_id": "0136"
+      },
+      {
+        "bytes": 336,
+        "git_blob": "fee2b4758f62e0b32b85b0fd7136d121e264f7a1",
+        "path": "data/paper/transform/0136.npy",
+        "role": "transform",
+        "sha256": "038e8284057f3a05441c7ebfa9aee429d8feaab054fe72fa620bdec080feba85",
+        "tensor_id": "0136"
+      },
+      {
+        "bytes": 200,
+        "git_blob": "15fb40cbb6d68b96e3c10c0b0a714952e425173a",
+        "path": "data/paper/cpd/topp/0137-00005.npy",
+        "role": "ccz_witness",
+        "sha256": "ec6ab9f3f623ee83e17a74a0de9f42ff459a2688d9822e75933e508ed6b41af8",
+        "tensor_id": "0137"
+      },
+      {
+        "bytes": 700,
+        "git_blob": "28a766f533fee8c8eb86de4b71d7374973e4a72a",
+        "path": "data/paper/waring/0137-00031.npy",
+        "role": "phase_witness",
+        "sha256": "beab549e5a57a499c7b32e1fcae361eb62c70f4adf78994a8906938b66f4c664",
+        "tensor_id": "0137"
+      },
+      {
+        "bytes": 3272,
+        "git_blob": "cff85051beeeffcdcf6c4dd73283b5b9eb1cf40f",
+        "path": "data/tensors/0137.npy",
+        "role": "tensor",
+        "sha256": "8507cd742f147dbb11e88417ebea9f3f4502abad9689f855db91ad53f7286eb2",
+        "tensor_id": "0137"
+      },
+      {
+        "bytes": 480,
+        "git_blob": "73bbda090dc223ffdb86b1cfc5600c31488b7cd7",
+        "path": "data/paper/transform/0137.npy",
+        "role": "transform",
+        "sha256": "e2f5315cd87f551fc5a12e779f9d22a9131b0cab22852e182a3928b112f4d0e4",
+        "tensor_id": "0137"
+      },
+      {
+        "bytes": 224,
+        "git_blob": "ed7ce1cca2fc71b1ec6fbe5d4e5c268b56dbba70",
+        "path": "data/paper/cpd/topp/0138-00006.npy",
+        "role": "ccz_witness",
+        "sha256": "0143018a0158691e97062919287276d16b250251db28563ec3ce90d3939eca16",
+        "tensor_id": "0138"
+      },
+      {
+        "bytes": 968,
+        "git_blob": "ad0cb05aeb6f57085645ffdc7a56816b9a0c761b",
+        "path": "data/paper/waring/0138-00037.npy",
+        "role": "phase_witness",
+        "sha256": "93b81e26892d81ff6ca49b6afe4bd64a8bbaf451e7f44c9392361a967c90f8c9",
+        "tensor_id": "0138"
+      },
+      {
+        "bytes": 3368,
+        "git_blob": "86764756c4db92ed411690ec070d887cf6686b67",
+        "path": "data/tensors/0138.npy",
+        "role": "tensor",
+        "sha256": "9ec9ca8f6e1d90c188f02158106bb3416668e8af8424a42deb4d3531658e29fd",
+        "tensor_id": "0138"
+      },
+      {
+        "bytes": 656,
+        "git_blob": "0a23ba55042a06c02a0cb8b3de6897197acc0299",
+        "path": "data/paper/transform/0138.npy",
+        "role": "transform",
+        "sha256": "ab09c9ef708a0d44fe3c6c6ed50ea9f0b946a4192c044a2e9099614bbf82c864",
+        "tensor_id": "0138"
+      },
+      {
+        "bytes": 248,
+        "git_blob": "c6963856b502a477d92b2cd6a901936e70cec364",
+        "path": "data/paper/cpd/topp/0139-00007.npy",
+        "role": "ccz_witness",
+        "sha256": "32585729c0aa3aa737aa2ab41a2d9a71bbe8cc097397c6226b2dd292feacbb7b",
+        "tensor_id": "0139"
+      },
+      {
+        "bytes": 1284,
+        "git_blob": "f1a33e3a30d2b1fe3954d1ebdc12feb8f9272e99",
+        "path": "data/paper/waring/0139-00043.npy",
+        "role": "phase_witness",
+        "sha256": "ed930635602561e8efcc9f5671e53f55a3eaea35fddd248288b1b4dd01ac0a96",
+        "tensor_id": "0139"
+      },
+      {
+        "bytes": 5960,
+        "git_blob": "0bab3e7e137e0a083c6e9139a07c3e80108cc2a2",
+        "path": "data/tensors/0139.npy",
+        "role": "tensor",
+        "sha256": "487953e63eefe5e8129f012ed476937e07cc6a267fadee85491acede1459e772",
+        "tensor_id": "0139"
+      },
+      {
+        "bytes": 864,
+        "git_blob": "7dc02778abe805ba3871adce9bda6b418e0b4ea1",
+        "path": "data/paper/transform/0139.npy",
+        "role": "transform",
+        "sha256": "7134ebed094a3e28cc9b99b231d61ff920a4caaa07109919d6bf457e6518fea8",
+        "tensor_id": "0139"
+      },
+      {
+        "bytes": 272,
+        "git_blob": "c411f58740a5199f65ab7181afc424dc318c8a34",
+        "path": "data/paper/cpd/topp/0140-00008.npy",
+        "role": "ccz_witness",
+        "sha256": "24b5048f626ac713878121951c159f81a6c3ead4f4c70fc6dad9c33c120a280d",
+        "tensor_id": "0140"
+      },
+      {
+        "bytes": 1648,
+        "git_blob": "b28e41cfe014846804b28cd037ac4cddd88c69e2",
+        "path": "data/paper/waring/0140-00049.npy",
+        "role": "phase_witness",
+        "sha256": "9a95dd2338c120375b9745d5b42526632718877991236aad8ae5bf36cba3feb1",
+        "tensor_id": "0140"
+      },
+      {
+        "bytes": 9608,
+        "git_blob": "0c586bbadf3104e8823411465df8792e5b12b4d9",
+        "path": "data/tensors/0140.npy",
+        "role": "tensor",
+        "sha256": "441d7691021cc4ea0d00df10b6f7937d003d70ac0a7d71f770eb8148c0850e56",
+        "tensor_id": "0140"
+      },
+      {
+        "bytes": 1104,
+        "git_blob": "81e31bd3bdce0770c287d93e712edfccafae8846",
+        "path": "data/paper/transform/0140.npy",
+        "role": "transform",
+        "sha256": "f38a8426f8389217accc1cdc068877c972ec9686e482a76858c267d308c026a6",
+        "tensor_id": "0140"
+      },
+      {
+        "bytes": 296,
+        "git_blob": "ed600dab10b3d2127c2d4867320265e6a2098efe",
+        "path": "data/paper/cpd/topp/0141-00009.npy",
+        "role": "ccz_witness",
+        "sha256": "ad16ad092d23d203a9cf42d4c1e22ceee0baab6dbee6c2e64a39f4ac6b92b8b1",
+        "tensor_id": "0141"
+      },
+      {
+        "bytes": 2060,
+        "git_blob": "9855ae3eba39e9c1409bb8ca95f6fdcc1698900a",
+        "path": "data/paper/waring/0141-00055.npy",
+        "role": "phase_witness",
+        "sha256": "46001b9cca82be9405768db377fd3d6a1ef76a18c047b26e7f6504afd58d6197",
+        "tensor_id": "0141"
+      },
+      {
+        "bytes": 10280,
+        "git_blob": "c158dc2f5ec269a27c162d9694a9037530c50cc3",
+        "path": "data/tensors/0141.npy",
+        "role": "tensor",
+        "sha256": "482d67434c258722ad729fa97b0436f711795c582ca4f243107df87e3bed5586",
+        "tensor_id": "0141"
+      },
+      {
+        "bytes": 1376,
+        "git_blob": "003cf0cc00154821ea2c63a01cfb045d093f72ec",
+        "path": "data/paper/transform/0141.npy",
+        "role": "transform",
+        "sha256": "cfc9a86d73a3e91f4ff639064f3adf9478fdf9f3a7c4712c293ce94b0f886598",
+        "tensor_id": "0141"
+      },
+      {
+        "bytes": 192080,
+        "git_blob": "8fca2cb531119540e0346415c7407b5196f8b095",
+        "path": "data/paper/cpd/topp/0142-00008.npy",
+        "role": "ccz_witness",
+        "sha256": "87b61eb3cf78d69922db800ff37884166c2dd0a036c3fbffa2b17ed608dcb1a1",
+        "tensor_id": "0142"
+      },
+      {
+        "bytes": 1187,
+        "git_blob": "b752d1f0ab9d03cda5334ff9558c316f7c6c5a2c",
+        "path": "data/paper/waring/0142-00041.npy",
+        "role": "phase_witness",
+        "sha256": "276ef161486d8d3d21e2e6356b22b8222f1d1ba4e7b9c6684e1d0588f03a1fe7",
+        "tensor_id": "0142"
+      },
+      {
+        "bytes": 12872,
+        "git_blob": "0cb099ffd7c1fa2256386e2fc2ad6cf8b50135df",
+        "path": "data/tensors/0142.npy",
+        "role": "tensor",
+        "sha256": "520e0e090beda3262983932dceeaf8cac013cbb1f429ff8ad2be9f071aca8baa",
+        "tensor_id": "0142"
+      },
+      {
+        "bytes": 857,
+        "git_blob": "2127c9cb01f2dcc8b36ab85afb479fda2e163fdf",
+        "path": "data/paper/transform/0142.npy",
+        "role": "transform",
+        "sha256": "6e4431e59b32637a959054163fb698f5a86b530343d0653ba7dabffec1e3b25a",
+        "tensor_id": "0142"
+      },
+      {
+        "bytes": 288080,
+        "git_blob": "05276eeef7747e29d4cc354573bd09e19189e4d1",
+        "path": "data/paper/cpd/topp/0143-00012.npy",
+        "role": "ccz_witness",
+        "sha256": "ae1c4dc0270d0408805f297b16b270c067ca0ae3acfe2ebc5d6a0c674e47d2e6",
+        "tensor_id": "0143"
+      },
+      {
+        "bytes": 2459,
+        "git_blob": "b9c787039ba7754256c7d23715fde6007b3e82e6",
+        "path": "data/paper/waring/0143-00061.npy",
+        "role": "phase_witness",
+        "sha256": "3d81dc386a5aeb89630e0535c002433644ea130e93ab4dac44c7d4e573a42b28",
+        "tensor_id": "0143"
+      },
+      {
+        "bytes": 47312,
+        "git_blob": "ad3bffad0a5a5a9264453ea2040dab5e3c6a37a5",
+        "path": "data/tensors/0143.npy",
+        "role": "tensor",
+        "sha256": "0d7c31500fd1c39f34019e20935c09357d882f3f215be821358afdde0e5b8ea4",
+        "tensor_id": "0143"
+      },
+      {
+        "bytes": 1649,
+        "git_blob": "131fd26ec7a23ce36130115e666361891abb793d",
+        "path": "data/paper/transform/0143.npy",
+        "role": "transform",
+        "sha256": "4b6e202f5ca08f46c3656ca53163593614e77b15c0c958d3b9efa2c7071e1dd1",
+        "tensor_id": "0143"
+      },
+      {
+        "bytes": 464,
+        "git_blob": "92ac30fcd188ffc204e5469e5749b11567f8a297",
+        "path": "data/paper/cpd/topp/0144-00016.npy",
+        "role": "ccz_witness",
+        "sha256": "bcf0f9be20e153a84fc7f9ef474149e92238ad34d6aad614be95e92a118f4861",
+        "tensor_id": "0144"
+      },
+      {
+        "bytes": 4211,
+        "git_blob": "b6e01efbf7453da2b9115ea2119edd102adecc20",
+        "path": "data/paper/waring/0144-00081.npy",
+        "role": "phase_witness",
+        "sha256": "ae10b175db9429192f407f9d47c9ff8caebab5e9d1e270bac1d721c2513cceb8",
+        "tensor_id": "0144"
+      },
+      {
+        "bytes": 124232,
+        "git_blob": "7fc0b14249d590fc89f3eb6537f7ed6df8590295",
+        "path": "data/tensors/0144.npy",
+        "role": "tensor",
+        "sha256": "8ff01104bd8d0aa77439c060501248fe589e987e09e8ee8e6e5f88b4ef6e8579",
+        "tensor_id": "0144"
+      },
+      {
+        "bytes": 2681,
+        "git_blob": "33512b775450aefd3b2c5a2c8bc8737166d89a2a",
+        "path": "data/paper/transform/0144.npy",
+        "role": "transform",
+        "sha256": "acf95bead969c5122063acf51bdfa8d05723d5c8d37449e91ca8fe64cb08ac3a",
+        "tensor_id": "0144"
+      },
+      {
+        "bytes": 288080,
+        "git_blob": "2bfbff9b211ce473953611b1180c49f54f4a6f50",
+        "path": "data/paper/cpd/topp/0145-00012.npy",
+        "role": "ccz_witness",
+        "sha256": "bc84a934cf741b5561efad85fffb548535c5b0f42c2ea68b7df7fe549ea785a3",
+        "tensor_id": "0145"
+      },
+      {
+        "bytes": 2459,
+        "git_blob": "87df91f9c7188db9ba4866b1f13891b083b9c197",
+        "path": "data/paper/waring/0145-00061.npy",
+        "role": "phase_witness",
+        "sha256": "910216c0e40890eb0e341d075a673d2de6ab0e1a9e5c04cc8eb31dc46122245b",
+        "tensor_id": "0145"
+      },
+      {
+        "bytes": 51248,
+        "git_blob": "702c0df0c71aab0da749e7ecc0bc9cb1f98ddfb6",
+        "path": "data/tensors/0145.npy",
+        "role": "tensor",
+        "sha256": "33522958ed93f7d95060adc3f9db3154543b91dc871064c17234dc278bc0bad4",
+        "tensor_id": "0145"
+      },
+      {
+        "bytes": 1649,
+        "git_blob": "131fd26ec7a23ce36130115e666361891abb793d",
+        "path": "data/paper/transform/0145.npy",
+        "role": "transform",
+        "sha256": "4b6e202f5ca08f46c3656ca53163593614e77b15c0c958d3b9efa2c7071e1dd1",
+        "tensor_id": "0145"
+      },
+      {
+        "bytes": 432080,
+        "git_blob": "2f7d1608b82089267fc7dd4ef722c51820efc928",
+        "path": "data/paper/cpd/topp/0146-00018.npy",
+        "role": "ccz_witness",
+        "sha256": "d1e70198e6088f819e4aba40277e3b0fe6605e4fb1d8e3da260bed40164a60ab",
+        "tensor_id": "0146"
+      },
+      {
+        "bytes": 5176,
+        "git_blob": "bb8505bf047f17aa407e3996128e30b2419ea462",
+        "path": "data/paper/waring/0146-00091.npy",
+        "role": "phase_witness",
+        "sha256": "82c4f539f4d6db06a1d5c228f6a73caf7d164202bc20ccbb33cb9e695fac3454",
+        "tensor_id": "0146"
+      },
+      {
+        "bytes": 90560,
+        "git_blob": "432c85e7682878be473e511b27191bd42412fd8b",
+        "path": "data/tensors/0146.npy",
+        "role": "tensor",
+        "sha256": "38417360b7a07eeb82d6a3e2dcef17d46138065dda57f33bcf457a9d58ea56a4",
+        "tensor_id": "0146"
+      },
+      {
+        "bytes": 3264,
+        "git_blob": "e8d1640624f5dbbbaec9f26df1432d93eb5c958c",
+        "path": "data/paper/transform/0146.npy",
+        "role": "transform",
+        "sha256": "1a7345de244ecd111af4cab056349f2c4aa5c85df5e913d54e2b76cae6e20fd4",
+        "tensor_id": "0146"
+      },
+      {
+        "bytes": 384080,
+        "git_blob": "bb9a85a45c5a15602a0ab27b10da71e7a882d6a1",
+        "path": "data/paper/cpd/topp/0147-00016.npy",
+        "role": "ccz_witness",
+        "sha256": "8c4a29b819df89764f4a7b6c6a2f8ae09c9c61877687fe95efa3f11fa344ba58",
+        "tensor_id": "0147"
+      },
+      {
+        "bytes": 4415,
+        "git_blob": "a15eb7a4f4f8c22a550f4d0c8a54335880e84b25",
+        "path": "data/paper/waring/0147-00085.npy",
+        "role": "phase_witness",
+        "sha256": "a1a1503f1b35182aba967bf3867e31922bbfa5474e422855352e8926154029dd",
+        "tensor_id": "0147"
+      },
+      {
+        "bytes": 93728,
+        "git_blob": "dcc899f9d6c2dd0d9ca67076d8c1db49e9ec7302",
+        "path": "data/tensors/0147.npy",
+        "role": "tensor",
+        "sha256": "c1308ea8b4b11d2de44c97260bc1f4e6c5c693f60e97f40d8b30d1e59ac0f8ea",
+        "tensor_id": "0147"
+      },
+      {
+        "bytes": 2729,
+        "git_blob": "72f978fb3602970c847273eee7704fff3e74ff81",
+        "path": "data/paper/transform/0147.npy",
+        "role": "transform",
+        "sha256": "4ae89551aa3e0c5e44c1b79988226be33fd5cbf8681fb558f8d7be90c0763e5b",
+        "tensor_id": "0147"
+      },
+      {
+        "bytes": 480080,
+        "git_blob": "75a77c83958192c32e233806507e3d82c01389bb",
+        "path": "data/paper/cpd/topp/0148-00020.npy",
+        "role": "ccz_witness",
+        "sha256": "bd0635f821cd7bd940414da9323284e56365b936fba29ddb1ddf8d75d4cddce2",
+        "tensor_id": "0148"
+      },
+      {
+        "bytes": 6695,
+        "git_blob": "da848f46eeb3f8961ff21af789c84548754cb1f6",
+        "path": "data/paper/waring/0148-00105.npy",
+        "role": "phase_witness",
+        "sha256": "1526477b945974ae6b7d5a4a073c25f9e2f7758ffe086d3c5835af211afa445d",
+        "tensor_id": "0148"
+      },
+      {
+        "bytes": 266504,
+        "git_blob": "df7400fc84b4cfa75996b3093eabd3c9fc955b02",
+        "path": "data/tensors/0148.npy",
+        "role": "tensor",
+        "sha256": "c4e1c1ecfb9a2f2a721958ffaed089df611fce330f60b7016c1c3436cd0ae615",
+        "tensor_id": "0148"
+      },
+      {
+        "bytes": 4097,
+        "git_blob": "b4b940ca3172dd1fc6c1655ac734712d3ab3d599",
+        "path": "data/paper/transform/0148.npy",
+        "role": "transform",
+        "sha256": "b6455a18deb4644282b67e85216f974509195ebd45e73d7f8692237d75c17db1",
+        "tensor_id": "0148"
+      },
+      {
+        "bytes": 152,
+        "git_blob": "4583aae91f1a51ef8b9a9e15fc3dedcb7a8f30b0",
+        "path": "data/paper/cpd/topp/0149-00003.npy",
+        "role": "ccz_witness",
+        "sha256": "344bcf98640ff0026b6180132b44bb8caca2195cac2de8b53d12fa1669be10b9",
+        "tensor_id": "0149"
+      },
+      {
+        "bytes": 251,
+        "git_blob": "e6544f5afcb2a838485df11f4423974618b11d0f",
+        "path": "data/paper/waring/0149-00019.npy",
+        "role": "phase_witness",
+        "sha256": "6259f54305e76fefa4477c8f7b7c8628d7f52b9247cfe0202004c1bbd8d9d19f",
+        "tensor_id": "0149"
+      },
+      {
+        "bytes": 632,
+        "git_blob": "ff110138ffcf32b3ce51c72102ebd5a742944e92",
+        "path": "data/tensors/0149.npy",
+        "role": "tensor",
+        "sha256": "6a0d6b5763104949fc6189e0f8f617d9816e004797be67163ec90c614dbd0b9f",
+        "tensor_id": "0149"
+      },
+      {
+        "bytes": 161,
+        "git_blob": "5c90c4a4e2f6576044506539de38ca55203dfbf1",
+        "path": "data/paper/transform/0149.npy",
+        "role": "transform",
+        "sha256": "7ee79d12edb9e9536009adaf985fe9e441545d4c5536e0445c37cea7fefb1bc9",
+        "tensor_id": "0149"
+      },
+      {
+        "bytes": 152,
+        "git_blob": "ec3dba09d72be39d41d41969b523f52cebf4e293",
+        "path": "data/paper/cpd/topp/0150-00003.npy",
+        "role": "ccz_witness",
+        "sha256": "ac3089597e0e8f3e5ed3cb11f6502805a63be3b3a3f0b6023dc21a6b58fa433c",
+        "tensor_id": "0150"
+      },
+      {
+        "bytes": 270,
+        "git_blob": "2f10b085964c48dc44812af82f15a919674ce071",
+        "path": "data/paper/waring/0150-00019.npy",
+        "role": "phase_witness",
+        "sha256": "62728e50f3aae01175866bc3039d9cdbb834a3eed95183ae4b056eec899ca7ad",
+        "tensor_id": "0150"
+      },
+      {
+        "bytes": 728,
+        "git_blob": "0e1f34930143fcc93fd676648d9be19fc5826864",
+        "path": "data/tensors/0150.npy",
+        "role": "tensor",
+        "sha256": "0014e286fa37d7d1d1e084eb40a1f2b7521aec29968ffb058fa85cb18e901b31",
+        "tensor_id": "0150"
+      },
+      {
+        "bytes": 180,
+        "git_blob": "a69655edf2a9a42d79fe903cd15ae182df130ab3",
+        "path": "data/paper/transform/0150.npy",
+        "role": "transform",
+        "sha256": "c3ef477a5dda16a1330c396784ba73a80f3bcc80b72310449e2d306f72219ff8",
+        "tensor_id": "0150"
+      },
+      {
+        "bytes": 176,
+        "git_blob": "7d16fc76e054dbf5534d56c71db77a3deb7251a5",
+        "path": "data/paper/cpd/topp/0151-00004.npy",
+        "role": "ccz_witness",
+        "sha256": "f6c1227bc478dda7a9aa1819ad49e1b84069caf2451d12feeebf1e12d4237f41",
+        "tensor_id": "0151"
+      },
+      {
+        "bytes": 380,
+        "git_blob": "ea156fa917265ce3ba2511eaa745e635dfcc11bb",
+        "path": "data/paper/waring/0151-00025.npy",
+        "role": "phase_witness",
+        "sha256": "3e9f2030ba67659276dcc215bf44b07b76866695c7db8fc9d3606f9aae117484",
+        "tensor_id": "0151"
+      },
+      {
+        "bytes": 584,
+        "git_blob": "9ac95b37d9f9757669c19c57cbca0050dbd2ea28",
+        "path": "data/tensors/0151.npy",
+        "role": "tensor",
+        "sha256": "aaae166a738a3dda14cd20b9b24127d8166870c7c7127a93dbab0088fa32538a",
+        "tensor_id": "0151"
+      },
+      {
+        "bytes": 224,
+        "git_blob": "c053b997fc3f969fbdfd508628060ef049816f82",
+        "path": "data/paper/transform/0151.npy",
+        "role": "transform",
+        "sha256": "c85d11eba436ec09ccb5b395c861b6dea8501765e6fe8adb95ca3bb0b1a33e9a",
+        "tensor_id": "0151"
+      },
+      {
+        "bytes": 176,
+        "git_blob": "c8a894be182e5428c0d4e654c1cfecd0e912ed49",
+        "path": "data/paper/cpd/topp/0152-00004.npy",
+        "role": "ccz_witness",
+        "sha256": "3d7c33de3c3db98dca8e1cd6bf67ff36fc500b3cf5174e91b3db1293c7efe1ca",
+        "tensor_id": "0152"
+      },
+      {
+        "bytes": 405,
+        "git_blob": "e3d5fc7f9061fb1246bb2de79902f007b853cf17",
+        "path": "data/paper/waring/0152-00025.npy",
+        "role": "phase_witness",
+        "sha256": "bf860b40f3d9fe08fc39288e57a37173c46092e2e6626278804c2dc142326b83",
+        "tensor_id": "0152"
+      },
+      {
+        "bytes": 992,
+        "git_blob": "710461cfb496aed014137d9000a75960815a6756",
+        "path": "data/tensors/0152.npy",
+        "role": "tensor",
+        "sha256": "10006e5f7a6671f05a6636582695cf26945a3adbbbdc35f15b858981452dee71",
+        "tensor_id": "0152"
+      },
+      {
+        "bytes": 249,
+        "git_blob": "a7acfb28bfac04643fb22fbc3ea8b070ba96c23d",
+        "path": "data/paper/transform/0152.npy",
+        "role": "transform",
+        "sha256": "8abfea6e493907b40e2224b159b11c755d65f866031ecf824a462a7aa2aacfa4",
+        "tensor_id": "0152"
+      },
+      {
+        "bytes": 248,
+        "git_blob": "764a88f0c39f403440365c2ff8116c2dc3cae841",
+        "path": "data/paper/cpd/topp/0153-00007.npy",
+        "role": "ccz_witness",
+        "sha256": "86682be49facbbe499bdce7b864ca621cc6962f3f7c83aa6b9278d02ad40c15c",
+        "tensor_id": "0153"
+      },
+      {
+        "bytes": 983,
+        "git_blob": "48b0d40dd00e0b7b1e256081caa6860cf59eebfa",
+        "path": "data/paper/waring/0153-00043.npy",
+        "role": "phase_witness",
+        "sha256": "37e567815dc1d501881e789f4ebac551f2cef1ffefe5165cae8dd89ae1e7b5dd",
+        "tensor_id": "0153"
+      },
+      {
+        "bytes": 2168,
+        "git_blob": "9ce7dd6335a35f7d4ff0ff6bd188ce56708029ee",
+        "path": "data/tensors/0153.npy",
+        "role": "tensor",
+        "sha256": "44afbf8145062791a7ad339cd0a12958af0329fab321f7cf8625ca727f386506",
+        "tensor_id": "0153"
+      },
+      {
+        "bytes": 521,
+        "git_blob": "d7e466adb58994dc552f1a3c360882b40e5aa286",
+        "path": "data/paper/transform/0153.npy",
+        "role": "transform",
+        "sha256": "17fd116eb8e0a20b07b81f71dafd451fc2eab7d4a3a51c544bcfff97bf8ed067",
+        "tensor_id": "0153"
+      },
+      {
+        "bytes": 248,
+        "git_blob": "638fc22d56db63557018ecb20dca3bb2a12eb006",
+        "path": "data/paper/cpd/topp/0154-00007.npy",
+        "role": "ccz_witness",
+        "sha256": "024bdeb6d10c97b57d725438cd00ea17b55d6d9b5eb75e9e1ce8e98d12b2aee9",
+        "tensor_id": "0154"
+      },
+      {
+        "bytes": 1026,
+        "git_blob": "beaec9dfac74a4ce82c4b5b4d8140eeadd5076fa",
+        "path": "data/paper/waring/0154-00043.npy",
+        "role": "phase_witness",
+        "sha256": "e18753500624106edd744c7db057dee313721dfc2b0e38bffe8952742101169b",
+        "tensor_id": "0154"
+      },
+      {
+        "bytes": 1928,
+        "git_blob": "227d1a6dc089e4c2b3435ebf9de8717bc80ee813",
+        "path": "data/tensors/0154.npy",
+        "role": "tensor",
+        "sha256": "9607f53b891a63d5fc655211d798f788f39d0242e9070d9e7ed971d900585e13",
+        "tensor_id": "0154"
+      },
+      {
+        "bytes": 564,
+        "git_blob": "3b7b00f4f7770066d64283936f6d7381a7b37210",
+        "path": "data/paper/transform/0154.npy",
+        "role": "transform",
+        "sha256": "e57498a010fd6a7c1196384ec06fc375f564f31a0a6e6f4037128690410edb56",
+        "tensor_id": "0154"
+      },
+      {
+        "bytes": 272,
+        "git_blob": "128ac0521b0e4cde75515352bee626ab7d5aaf4d",
+        "path": "data/paper/cpd/topp/0155-00008.npy",
+        "role": "ccz_witness",
+        "sha256": "80bc3f7a507407ced6e70b3744aae20acd5627646e9fc6b1440db9ed50ceca99",
+        "tensor_id": "0155"
+      },
+      {
+        "bytes": 1256,
+        "git_blob": "65dc171e2364f3144e3739022ada39ceeb38a838",
+        "path": "data/paper/waring/0155-00049.npy",
+        "role": "phase_witness",
+        "sha256": "aabd4382d2940b673b994e4413a1c1ce5b18afd86b53a056c51f89e64ad6da2a",
+        "tensor_id": "0155"
+      },
+      {
+        "bytes": 2216,
+        "git_blob": "edfc25a03f61ba85deab92aa38703d80ab73bbe9",
+        "path": "data/tensors/0155.npy",
+        "role": "tensor",
+        "sha256": "e80fcb3ddb259db6028f2820021d5eac21e584b3e46f462d4a6b68c0cb32097f",
+        "tensor_id": "0155"
+      },
+      {
+        "bytes": 656,
+        "git_blob": "d93f1691cb296ca6c0268b111f557bd594b13730",
+        "path": "data/paper/transform/0155.npy",
+        "role": "transform",
+        "sha256": "276a35c57a3114338669ff61b9bf7950f2ea53e2fd7869542f2c75d23bd196c3",
+        "tensor_id": "0155"
+      },
+      {
+        "bytes": 272,
+        "git_blob": "4b3622de9a5b284a9eb05289bca5a549908523e3",
+        "path": "data/paper/cpd/topp/0156-00008.npy",
+        "role": "ccz_witness",
+        "sha256": "ba9d2139610671030d0d528cb3b0507d700fec9910e30345cb54f52889dc82a2",
+        "tensor_id": "0156"
+      },
+      {
+        "bytes": 1305,
+        "git_blob": "b9e1fee07e53ee0b8423e67777ba85cc0e47f8e7",
+        "path": "data/paper/waring/0156-00049.npy",
+        "role": "phase_witness",
+        "sha256": "16230e8a58917216cef39bf521a6c9bee4535dee2e1ad51cdd66055ab5bc27e4",
+        "tensor_id": "0156"
+      },
+      {
+        "bytes": 3392,
+        "git_blob": "9e28048112863bd55051b0b069056432951a37d1",
+        "path": "data/tensors/0156.npy",
+        "role": "tensor",
+        "sha256": "65fa8e0b815f9e008bbfe5f8a30a49aac92256c4c406274b500ce07b833778e8",
+        "tensor_id": "0156"
+      },
+      {
+        "bytes": 705,
+        "git_blob": "a0d571f7a8fe76423c0f0e7e28ae02b7912aa856",
+        "path": "data/paper/transform/0156.npy",
+        "role": "transform",
+        "sha256": "3207c93a5d16b1ca5790e73c8218b683ac3d37d0688b4d7ddb22aa5519051f51",
+        "tensor_id": "0156"
+      },
+      {
+        "bytes": 320,
+        "git_blob": "d821982b6a5c0f06a43e05ea6f83e701782d779b",
+        "path": "data/paper/cpd/topp/0157-00010.npy",
+        "role": "ccz_witness",
+        "sha256": "52ff174379592852ddcd9627ffe814dd65637a2b2b4060b49bc55650159a4849",
+        "tensor_id": "0157"
+      },
+      {
+        "bytes": 1910,
+        "git_blob": "093fab7c393eced96fde73c92dd6ff9d44a31a2d",
+        "path": "data/paper/waring/0157-00061.npy",
+        "role": "phase_witness",
+        "sha256": "711793fba1f20742422d6fb8668af5961940ccfbfa48035f1b196e48fe523e6c",
+        "tensor_id": "0157"
+      },
+      {
+        "bytes": 4544,
+        "git_blob": "fb689c4469d49797dc107faed64f3928e617adc9",
+        "path": "data/tensors/0157.npy",
+        "role": "tensor",
+        "sha256": "6e0af7705e7ddfc5488cfef4d8ee889295c34ee5b6c4910d1a6825c4f8db2ce7",
+        "tensor_id": "0157"
+      },
+      {
+        "bytes": 980,
+        "git_blob": "171b31e3cd4f6cfd0a0aaa79455db882e9cce0d8",
+        "path": "data/paper/transform/0157.npy",
+        "role": "transform",
+        "sha256": "39fcf87d932320bedf30167401c8f4e00288cad9990379e150900bd2310ad412",
+        "tensor_id": "0157"
+      },
+      {
+        "bytes": 320,
+        "git_blob": "6f863d65dd0859eff1cc3ca74d1427c8845c1643",
+        "path": "data/paper/cpd/topp/0158-00010.npy",
+        "role": "ccz_witness",
+        "sha256": "774983701419365f5f91bb6bfdcf5d1ac8827c22a253388575c62038ae835a01",
+        "tensor_id": "0158"
+      },
+      {
+        "bytes": 1971,
+        "git_blob": "603f5de3b68c16204b96a61253b5a1adda727a74",
+        "path": "data/paper/waring/0158-00061.npy",
+        "role": "phase_witness",
+        "sha256": "0b9f70745b9c59a45b5672f3778ea19ff8ff74e88240b40c80bdb964187070d2",
+        "tensor_id": "0158"
+      },
+      {
+        "bytes": 4256,
+        "git_blob": "5e28703a8ec327e35db861917f13ae68274d1402",
+        "path": "data/tensors/0158.npy",
+        "role": "tensor",
+        "sha256": "943f6e279ca851247c73c73bbc2c0a345bae53095ee547df572be8f6b8ab9ed3",
+        "tensor_id": "0158"
+      },
+      {
+        "bytes": 1041,
+        "git_blob": "ea84e5eb00e8636b255235ba2fb380da606e549a",
+        "path": "data/paper/transform/0158.npy",
+        "role": "transform",
+        "sha256": "36308b9c253287ced6c3eb37973b39da1a4d7734b932cda8e2b5ca6656923278",
+        "tensor_id": "0158"
+      },
+      {
+        "bytes": 344,
+        "git_blob": "38bb17504194a8c911c4de44d96ea98da6b2b8f7",
+        "path": "data/paper/cpd/topp/0159-00011.npy",
+        "role": "ccz_witness",
+        "sha256": "1ad7c4dc502c6d0bfdfb04647f8d5760e33f95dbdff38c8775d861a1d0257a85",
+        "tensor_id": "0159"
+      },
+      {
+        "bytes": 2291,
+        "git_blob": "3fc114a52be0fbe3ffeed380776411f666a52671",
+        "path": "data/paper/waring/0159-00067.npy",
+        "role": "phase_witness",
+        "sha256": "be7cb859a91f7764182a0de0f0115286dc3790c6d49d4f3c8fb8f65a09ed778a",
+        "tensor_id": "0159"
+      },
+      {
+        "bytes": 2840,
+        "git_blob": "903f4508dc6a40d652e820b16430a173200bdac6",
+        "path": "data/tensors/0159.npy",
+        "role": "tensor",
+        "sha256": "ff0fb6ce1fa1e9a35e1741baa6165b14bad84247bdfa6ca7a7bedc2bf49f36f0",
+        "tensor_id": "0159"
+      },
+      {
+        "bytes": 1169,
+        "git_blob": "4a0c3c0bcee5e748ed5c05ca3d674836f8d768f0",
+        "path": "data/paper/transform/0159.npy",
+        "role": "transform",
+        "sha256": "90a9f189edd7f69c5e1f0adeb47b46a2751e01371695ff5231808a061cc2ce22",
+        "tensor_id": "0159"
+      },
+      {
+        "bytes": 344,
+        "git_blob": "d5576550361721fa80e0208914d4805340757449",
+        "path": "data/paper/cpd/topp/0160-00011.npy",
+        "role": "ccz_witness",
+        "sha256": "e7400c11f4ea63ecd52dfebbc1f5002cfd2660da8f4730ce4d51abdcab5f5b45",
+        "tensor_id": "0160"
+      },
+      {
+        "bytes": 2358,
+        "git_blob": "5d12e652dcfcc164f2ffac246b29196a91f09622",
+        "path": "data/paper/waring/0160-00067.npy",
+        "role": "phase_witness",
+        "sha256": "2ea5c03ecce86fec08db01047aefab5d90b501488da5ed045f9cdf394078ec8d",
+        "tensor_id": "0160"
+      },
+      {
+        "bytes": 3800,
+        "git_blob": "c3a24f2c03a34806bfe7580db00abb164217f886",
+        "path": "data/tensors/0160.npy",
+        "role": "tensor",
+        "sha256": "9161a60977649f516cb5a9e4f280e012435765c9dbe84897038fa2a278019aaf",
+        "tensor_id": "0160"
+      },
+      {
+        "bytes": 1236,
+        "git_blob": "1f9d8df08a7bdada43e0d1d6b5f9bf4f60554403",
+        "path": "data/paper/transform/0160.npy",
+        "role": "transform",
+        "sha256": "e3a3579a6d6ba62bbdf73de909a614e53545f66dc9429cb8d6b18c5ca8f03d35",
+        "tensor_id": "0160"
+      },
+      {
+        "bytes": 440,
+        "git_blob": "d13e7e4b40776ecf18d51d08eb13a8922d4a68df",
+        "path": "data/paper/cpd/topp/0161-00015.npy",
+        "role": "ccz_witness",
+        "sha256": "ecf43c4c55ec447df74523145f5ece3070915ba6399ca2b4f3151e694c14ebd6",
+        "tensor_id": "0161"
+      },
+      {
+        "bytes": 4175,
+        "git_blob": "e99bb346d160c80dd85800906736bdee07609a90",
+        "path": "data/paper/waring/0161-00091.npy",
+        "role": "phase_witness",
+        "sha256": "c1903abc92eab47f3ed3168385c0202bc7a81535a4c22f540be36d6a8b1f760a",
+        "tensor_id": "0161"
+      },
+      {
+        "bytes": 12488,
+        "git_blob": "011fb1a4080ad618c23f48de2c195989ad91f4b0",
+        "path": "data/tensors/0161.npy",
+        "role": "tensor",
+        "sha256": "a7d09ce6a593028069c466965e9fa071d28e428df21fa169ff8fb480afbfa1cd",
+        "tensor_id": "0161"
+      },
+      {
+        "bytes": 2105,
+        "git_blob": "1585eee7969a3634de2f64e0d718488006f35861",
+        "path": "data/paper/transform/0161.npy",
+        "role": "transform",
+        "sha256": "4cf766c77992c968780954dc100c32db4d09fa3c9c97fd553d9eb77a3bf197e4",
+        "tensor_id": "0161"
+      },
+      {
+        "bytes": 440,
+        "git_blob": "4c793fcdf8ce37693027f7127e7885f7be079c15",
+        "path": "data/paper/cpd/topp/0162-00015.npy",
+        "role": "ccz_witness",
+        "sha256": "07dbde26cfef7eaa443389b7c1628ffd443bb411b2043af833f289e7341d062b",
+        "tensor_id": "0162"
+      },
+      {
+        "bytes": 4266,
+        "git_blob": "c80b471e6ba3e2b0023915c97562ab2ff2944995",
+        "path": "data/paper/waring/0162-00091.npy",
+        "role": "phase_witness",
+        "sha256": "28626415f79431eab3e11b69caae066fae2d262922711b3d80572085a3f09374",
+        "tensor_id": "0162"
+      },
+      {
+        "bytes": 22208,
+        "git_blob": "fd916c4ad4e93d6c36dbd31935ae95d97f7ae7c9",
+        "path": "data/tensors/0162.npy",
+        "role": "tensor",
+        "sha256": "b1d150ebdf0053e2dd2c807d23352fafd26659a7594cc499c03426ee18b23cac",
+        "tensor_id": "0162"
+      },
+      {
+        "bytes": 2196,
+        "git_blob": "646c534b61bdcacf55207422a865c14b43f3caed",
+        "path": "data/paper/transform/0162.npy",
+        "role": "transform",
+        "sha256": "17138641b976e64c11ca3d6f23e4615e62ef22ec5f276ae4f9c852da509510e0",
+        "tensor_id": "0162"
+      },
+      {
+        "bytes": 464,
+        "git_blob": "061750b9c302dc2d5fd286e7bdee1e8521660266",
+        "path": "data/paper/cpd/topp/0163-00016.npy",
+        "role": "ccz_witness",
+        "sha256": "46db14998201f87b5550eae102c7721bd6ab6469effe9eb536f80971ab8e5315",
+        "tensor_id": "0163"
+      },
+      {
+        "bytes": 4736,
+        "git_blob": "8ddae170b2129b299a440de0f4e860768ac59e65",
+        "path": "data/paper/waring/0163-00097.npy",
+        "role": "phase_witness",
+        "sha256": "589d7dcc9926cb94d8ff9b704bd68e83540c5aa6bec7cb18c0a7c148db974a2c",
+        "tensor_id": "0163"
+      },
+      {
+        "bytes": 8000,
+        "git_blob": "9a6f8b9ba2eff9aa4edc2a28f52ec384d93eb6b8",
+        "path": "data/tensors/0163.npy",
+        "role": "tensor",
+        "sha256": "e096f1f512ba68fad5aafebd919571629763be6b815d68aec3c49442dcafe829",
+        "tensor_id": "0163"
+      },
+      {
+        "bytes": 2384,
+        "git_blob": "16e0f5b797b29420fa7db32305c194681f69661d",
+        "path": "data/paper/transform/0163.npy",
+        "role": "transform",
+        "sha256": "4b9f8da09ce78d9df61ee2954a4907a293630ce0a700dd59f509136f119d4084",
+        "tensor_id": "0163"
+      },
+      {
+        "bytes": 464,
+        "git_blob": "709c357a8c12dd58657e07ce3fd7e86bded9551c",
+        "path": "data/paper/cpd/topp/0164-00016.npy",
+        "role": "ccz_witness",
+        "sha256": "61ef1b71a5c025f9d58fb846b4664faee2c40187ef20585a45ec2fc27e443bb9",
+        "tensor_id": "0164"
+      },
+      {
+        "bytes": 4833,
+        "git_blob": "5af7d99135d71cf574ed875ff4d35c85ecc3420a",
+        "path": "data/paper/waring/0164-00097.npy",
+        "role": "phase_witness",
+        "sha256": "207058a905b812d8d6cf4dabb782459b00c46c57ae9f3d67362514ea09d63411",
+        "tensor_id": "0164"
+      },
+      {
+        "bytes": 9272,
+        "git_blob": "a06b9bf85dcbab1f0ebcb3d291ed2402253d5e98",
+        "path": "data/tensors/0164.npy",
+        "role": "tensor",
+        "sha256": "d7988ce1015d9a0c064e63c0cee6312874aef0d3c39ac5760f13891d0bc0467f",
+        "tensor_id": "0164"
+      },
+      {
+        "bytes": 2481,
+        "git_blob": "4cd5e9afbee39b79ff3fbe253686cede76c186d7",
+        "path": "data/paper/transform/0164.npy",
+        "role": "transform",
+        "sha256": "9747ba5b05620f04588d6aebceafb31f06c7e9dbf21bbf21c33a0327066d57cd",
+        "tensor_id": "0164"
+      },
+      {
+        "bytes": 512,
+        "git_blob": "3886b09ef1b12702d8db6ecfbc51465214d86aa2",
+        "path": "data/paper/cpd/topp/0165-00018.npy",
+        "role": "ccz_witness",
+        "sha256": "fd5890bdaddaa5597c714c8b796421901a49be02aba03dd5c47d334a6ba1d337",
+        "tensor_id": "0165"
+      },
+      {
+        "bytes": 5966,
+        "git_blob": "5219e754f63ae23d7dd2f32d94dd134acbf7ef27",
+        "path": "data/paper/waring/0165-00109.npy",
+        "role": "phase_witness",
+        "sha256": "ea6f4eb21eb0744218fad1a9689e78d27567b16e4e92ca507acd2c1d7f8f2c79",
+        "tensor_id": "0165"
+      },
+      {
+        "bytes": 18896,
+        "git_blob": "cb42dd53535829db9d768da1bf0569532d86ee96",
+        "path": "data/tensors/0165.npy",
+        "role": "tensor",
+        "sha256": "d747f179f64eb021f06e6cbdc6dc42c866b3d98bc6cf75ebf8c9aa7a5ca09870",
+        "tensor_id": "0165"
+      },
+      {
+        "bytes": 2996,
+        "git_blob": "a76b443e1bb40995981dac79bd59c18f6abbacba",
+        "path": "data/paper/transform/0165.npy",
+        "role": "transform",
+        "sha256": "b1003436c51c40f604ff91127471c762b3920cb627b2ea9db30d09c9aaee494e",
+        "tensor_id": "0165"
+      },
+      {
+        "bytes": 248,
+        "git_blob": "84f8fcc94e9b6b418547871b4a0def1c35770739",
+        "path": "data/paper/cpd/topp/0166-00007.npy",
+        "role": "ccz_witness",
+        "sha256": "60d10cbda80195037f4ae5edc783346a226466ed12e731f837f957958310d7dc",
+        "tensor_id": "0166"
+      },
+      {
+        "bytes": 700,
+        "git_blob": "8b823da0a6c7a7497f675cb3de83c7a3f095bc17",
+        "path": "data/paper/waring/0166-00031.npy",
+        "role": "phase_witness",
+        "sha256": "7c1d03dc47985185062552fc6eec22e4bc761e32f6f9c1c692ea183cc88f94b0",
+        "tensor_id": "0166"
+      },
+      {
+        "bytes": 2216,
+        "git_blob": "d8b8cbba425dfa3e83c6dac9fb10740604ea02a2",
+        "path": "data/tensors/0166.npy",
+        "role": "tensor",
+        "sha256": "5bdc4df418675be4836be1e8cf3ba43695d732eeeda71d214efcd8091c9edfe4",
+        "tensor_id": "0166"
+      },
+      {
+        "bytes": 480,
+        "git_blob": "e4705ed9c7e3ae3c70013b05ee13effedb9d51e1",
+        "path": "data/paper/transform/0166.npy",
+        "role": "transform",
+        "sha256": "f40dee0829adfb48f00c4f7098a879c7a23a8596cbfe4ecacad7d2159ea999e0",
+        "tensor_id": "0166"
+      },
+      {
+        "bytes": 440,
+        "git_blob": "baa1edf5313458094ae61151c98dfc124ea2d94d",
+        "path": "data/paper/cpd/topp/0167-00015.npy",
+        "role": "ccz_witness",
+        "sha256": "8806b23aa67b18a3cefea85125ac48fa5f6ee6b8f0600e694d922f372eb45de3",
+        "tensor_id": "0167"
+      },
+      {
+        "bytes": 2474,
+        "git_blob": "40ba7c6ea0c4a17c46308c0f4105954ec7d53a92",
+        "path": "data/paper/waring/0167-00063.npy",
+        "role": "phase_witness",
+        "sha256": "9803e0b170be98ac623f5b0c8ea7f74d9d6be51c5e7f7b900e35f363fba1bb32",
+        "tensor_id": "0167"
+      },
+      {
+        "bytes": 5312,
+        "git_blob": "d7e1439d091762214ffe262aadbb6d9d48964932",
+        "path": "data/tensors/0167.npy",
+        "role": "tensor",
+        "sha256": "4643e70b9364ce43da7c3519a6c1957b1531c9c486058507972988a0d93fb22c",
+        "tensor_id": "0167"
+      },
+      {
+        "bytes": 1524,
+        "git_blob": "fc519f1798bbc26d0b0a087ecd356ed018d8fdf7",
+        "path": "data/paper/transform/0167.npy",
+        "role": "transform",
+        "sha256": "54b59a011a71af8f4069c456e5b1895c0690201ccc14b460506dcbe313c201a4",
+        "tensor_id": "0167"
+      },
+      {
+        "bytes": 1568,
+        "git_blob": "6a3b9a6a9654bbfe0551e38349e9f804ffef7639",
+        "path": "data/paper/cpd/topp/0168-00031.npy",
+        "role": "ccz_witness",
+        "sha256": "5b8ee4f339d01d84d9cd2ddda7cc7503ec20188b8e5059dab8c3b5e8cf0e6899",
+        "tensor_id": "0168"
+      },
+      {
+        "bytes": 9224,
+        "git_blob": "8f3650c93e6b860c582e1cc9f4a216254e2aea4e",
+        "path": "data/paper/waring/0168-00127.npy",
+        "role": "phase_witness",
+        "sha256": "b7657f092cc06ff6b3a49badbc4d910f7b52ba763301d4236b02c0041d1630ff",
+        "tensor_id": "0168"
+      },
+      {
+        "bytes": 9848,
+        "git_blob": "9bd6d4b23eb78702be5f6a22f7f9a2a0a25e3565",
+        "path": "data/tensors/0168.npy",
+        "role": "tensor",
+        "sha256": "ef2a501a1887606b02dce6c271b43d6198c85c29a10487566ca59025c5b18e0e",
+        "tensor_id": "0168"
+      },
+      {
+        "bytes": 5264,
+        "git_blob": "a3529af25810ceda12cc9dc11b3e9c04fcc2b7ae",
+        "path": "data/paper/transform/0168.npy",
+        "role": "transform",
+        "sha256": "3f2e717173d51de34cee4236e04da1f6eceb10e5bcb4177b4f4dc78e28242270",
+        "tensor_id": "0168"
+      },
+      {
+        "bytes": 648080,
+        "git_blob": "5c88d65c3d4c4559685dc35d2324777a09130c56",
+        "path": "data/paper/cpd/topp/0800-00027.npy",
+        "role": "ccz_witness",
+        "sha256": "9490b8d202149beebef101b573c17111a8cd14a447a65989ec1e27fb8f8c7324",
+        "tensor_id": "0800"
+      },
+      {
+        "bytes": 7217,
+        "git_blob": "ac55fa14e4b2521d61b04f52e8a4d76404c0eb6a",
+        "path": "data/paper/waring/0800-00117.npy",
+        "role": "phase_witness",
+        "sha256": "88c8548c3f0e2b8b8416105a5bc99a542a4a1877caf34f058037d59889c8874b",
+        "tensor_id": "0800"
+      },
+      {
+        "bytes": 39308,
+        "git_blob": "b90d52c6ea81bb5852a07786bd1cd5130f55b3e0",
+        "path": "data/tensors/0800.npy",
+        "role": "tensor",
+        "sha256": "1c67edd3f646ff9784b2a8d506d4a421aa05bdeb4e9ffcd380b0bfb4c3b8aa77",
+        "tensor_id": "0800"
+      },
+      {
+        "bytes": 3849,
+        "git_blob": "c8ba5523199bbebdddad6c51eaed43d9f9fb0042",
+        "path": "data/paper/transform/0800.npy",
+        "role": "transform",
+        "sha256": "bfc82f985d81ba44d1bd5c1c3b87e7adc88b810598cab06eef9499c77544d386",
+        "tensor_id": "0800"
+      },
+      {
+        "bytes": 128,
+        "git_blob": "97141985a68be46b8e5d644b22dc9b5baf811869",
+        "path": "data/paper/cpd/topp/0801-00002.npy",
+        "role": "ccz_witness",
+        "sha256": "f48872a881219cefa893e3af2e01b6b6e0861305a98956c75fbb09db0d42fde3",
+        "tensor_id": "0801"
+      },
+      {
+        "bytes": 184,
+        "git_blob": "6f5cb4cbaae63030631ee6bec3b5360b9edb1b17",
+        "path": "data/paper/waring/0801-00013.npy",
+        "role": "phase_witness",
+        "sha256": "0c12aae0728f266fc1284a7d36b1212560a90d4e437a5269048894372d81bfe8",
+        "tensor_id": "0801"
+      },
+      {
+        "bytes": 140,
+        "git_blob": "862cace47da4bc5a8a41863bae2a087499b92f51",
+        "path": "data/tensors/0801.npy",
+        "role": "tensor",
+        "sha256": "7ab9351abf8593a6e30cbe9b71283ae6b1b5b7a9951101ba096897776c789377",
+        "tensor_id": "0801"
+      },
+      {
+        "bytes": 144,
+        "git_blob": "a90ba0775ed39007eaf1f323ac30bcd8b2b2e109",
+        "path": "data/paper/transform/0801.npy",
+        "role": "transform",
+        "sha256": "fa455586a52a4e5cfd3553707c7fbdfdf9ed9d41fecfe80235568988d19976bb",
+        "tensor_id": "0801"
+      },
+      {
+        "bytes": 176,
+        "git_blob": "502549f438e2e90451419b6a87ed40b0ac8760f0",
+        "path": "data/paper/cpd/topp/0802-00004.npy",
+        "role": "ccz_witness",
+        "sha256": "b3bb4ba8442c22c1e7e1db04738492a01ae9aa35bc2fafa813fdb6af669ed0f8",
+        "tensor_id": "0802"
+      },
+      {
+        "bytes": 402,
+        "git_blob": "14498d7d352d3989a0d10d1bd08848b13195b36b",
+        "path": "data/paper/waring/0802-00023.npy",
+        "role": "phase_witness",
+        "sha256": "da8aa67712d5e32658e7f1185d76bee95924ccad8347a545bba35f319dd24a00",
+        "tensor_id": "0802"
+      },
+      {
+        "bytes": 212,
+        "git_blob": "42cacd70028ceff20505ae94281fd2bdb8ddfafc",
+        "path": "data/tensors/0802.npy",
+        "role": "tensor",
+        "sha256": "9fbcae429830eb9c2b31b6b46ad0690bc1f9801a27dedf2642924ab8bd3c0c2c",
+        "tensor_id": "0802"
+      },
+      {
+        "bytes": 276,
+        "git_blob": "8c4db2d4b1040b02d4f27e8ac0d1353f8bace9ba",
+        "path": "data/paper/transform/0802.npy",
+        "role": "transform",
+        "sha256": "2ab2adb9c7781e82f78b5bd1b45c122f31490993fa424ca1644d3557bf08141d",
+        "tensor_id": "0802"
+      },
+      {
+        "bytes": 224,
+        "git_blob": "087a661bd598df3d5d760413c384199db439ea63",
+        "path": "data/paper/cpd/topp/0803-00006.npy",
+        "role": "ccz_witness",
+        "sha256": "831a9ac6456c3e6d780ced90824da868a3d363cfc1e7fc3d2308b35f27839325",
+        "tensor_id": "0803"
+      },
+      {
+        "bytes": 740,
+        "git_blob": "7456689a9447811290da61af9c3e82d84d2f26d3",
+        "path": "data/paper/waring/0803-00033.npy",
+        "role": "phase_witness",
+        "sha256": "046391f04417aaa479e58f4757fafbfdebb9d863f514c74d8f4585e453178bf8",
+        "tensor_id": "0803"
+      },
+      {
+        "bytes": 308,
+        "git_blob": "8aad53c052736beb60483546b1db06f42e18fae1",
+        "path": "data/tensors/0803.npy",
+        "role": "tensor",
+        "sha256": "cf8bace42ebb0dd64e94d3ba1257a72d6df4270b5eff85616bc5b7641691c8de",
+        "tensor_id": "0803"
+      },
+      {
+        "bytes": 480,
+        "git_blob": "578504306b78c4c44432a0522655a13e28a3acbe",
+        "path": "data/paper/transform/0803.npy",
+        "role": "transform",
+        "sha256": "6c90d6c177344807fde709743be4d64c1196159d2a093d60bc333115aecbf634",
+        "tensor_id": "0803"
+      },
+      {
+        "bytes": 464,
+        "git_blob": "3755554e53eb234734132c6305ae66b268bd16df",
+        "path": "data/paper/cpd/topp/0804-00016.npy",
+        "role": "ccz_witness",
+        "sha256": "d27e7633e2eec3b6311f0ffa7bc72b48325f69744f1e78f79f3811cb393a436e",
+        "tensor_id": "0804"
+      },
+      {
+        "bytes": 4230,
+        "git_blob": "72ccae8230ee84eb28ac20fa8892913104d9376a",
+        "path": "data/paper/waring/0804-00083.npy",
+        "role": "phase_witness",
+        "sha256": "18924cfa997fa77f8efb035169764f2265c8407f43bffc8afe9a668f49a47181",
+        "tensor_id": "0804"
+      },
+      {
+        "bytes": 848,
+        "git_blob": "2dcdf236cbe725f73d023e26432f42bdcdcf8cfe",
+        "path": "data/tensors/0804.npy",
+        "role": "tensor",
+        "sha256": "c117726399ac91d55476d7d7649ad5d0780fa7bbbc00dea852b6ae802a35f6d4",
+        "tensor_id": "0804"
+      },
+      {
+        "bytes": 2580,
+        "git_blob": "7a10720a5b53adf01269cf49c3ab897f4bfdb360",
+        "path": "data/paper/transform/0804.npy",
+        "role": "transform",
+        "sha256": "5838ae2bd1f3e306adfa3d75629253ada8e993198ec848bcd52ae6099a9a6c7a",
+        "tensor_id": "0804"
+      },
+      {
+        "bytes": 272,
+        "git_blob": "5f8c15b589e0c2b620f94ee203cb1c9aee100a6f",
+        "path": "data/paper/cpd/topp/0805-00008.npy",
+        "role": "ccz_witness",
+        "sha256": "403a98479135c5473b3fc68656a8a055f2ff19c68a32a7b10b564d49056f48e0",
+        "tensor_id": "0805"
+      },
+      {
+        "bytes": 899,
+        "git_blob": "42a26dfce9ed71e18d1f7f894c0a4f4d810ad56a",
+        "path": "data/paper/waring/0805-00039.npy",
+        "role": "phase_witness",
+        "sha256": "fcde68bec94dcc7f79179193f327ee90b9129e0591f128ffcbf0cecc2b7e8898",
+        "tensor_id": "0805"
+      },
+      {
+        "bytes": 548,
+        "git_blob": "fe31df956d6a4f52451eae75f6ff6f714fa7fcba",
+        "path": "data/tensors/0805.npy",
+        "role": "tensor",
+        "sha256": "4014524b250a32c1c2b05e82fd52d2fa6795e6581e0ecb04487534778f775e89",
+        "tensor_id": "0805"
+      },
+      {
+        "bytes": 569,
+        "git_blob": "5544ff4dbee3e399612d49279deaf4e054c7ea88",
+        "path": "data/paper/transform/0805.npy",
+        "role": "transform",
+        "sha256": "5faf8df216df435467673a7fbc5a082f2a102197393c18bf3b8fc86eb727d1c9",
+        "tensor_id": "0805"
+      },
+      {
+        "bytes": 416,
+        "git_blob": "ad64c9ad1ff69d8cb38955b31ece26ee90c969ad",
+        "path": "data/paper/cpd/topp/0806-00014.npy",
+        "role": "ccz_witness",
+        "sha256": "4ea1b256ec5d65392635629c59a340f8c5dd437480908a6c36cc020c374b732b",
+        "tensor_id": "0806"
+      },
+      {
+        "bytes": 3062,
+        "git_blob": "92da759e3fbfdc61bf05e1d59f5826cb6dc108b5",
+        "path": "data/paper/waring/0806-00071.npy",
+        "role": "phase_witness",
+        "sha256": "b6bf087673a9198a30e05e683ed3ae289e59d21fcfd82106092c9ae3417549a8",
+        "tensor_id": "0806"
+      },
+      {
+        "bytes": 1124,
+        "git_blob": "86e8219bd623bea78cae744040c4e026155d01e2",
+        "path": "data/tensors/0806.npy",
+        "role": "tensor",
+        "sha256": "1a1f7ccb73783f5f0c2bd9dcee553edf8405b796307a3b2a62a9c90f66e08123",
+        "tensor_id": "0806"
+      },
+      {
+        "bytes": 1844,
+        "git_blob": "066d2e58be643b2aadce7d86038a33e672fb984d",
+        "path": "data/paper/transform/0806.npy",
+        "role": "transform",
+        "sha256": "fe47e00d418891dc20549575f02856b66cdea6524091906939567cc797f36118",
+        "tensor_id": "0806"
+      },
+      {
+        "bytes": 1280,
+        "git_blob": "0dc5f568c6bb0232519b91ccdd17b2814c0ad8b4",
+        "path": "data/paper/cpd/topp/0807-00025.npy",
+        "role": "ccz_witness",
+        "sha256": "28c3f65dcc80355aa62129d542c18e2e0b557202f6d7608264e2af9e2f613ee5",
+        "tensor_id": "0807"
+      },
+      {
+        "bytes": 11091,
+        "git_blob": "2d4ff0c573da9f47aa506fd3a0a3a76e00d9c10c",
+        "path": "data/paper/waring/0807-00143.npy",
+        "role": "phase_witness",
+        "sha256": "b1a358bd55bbfa78426863946c50f2bb561a66e378041f416077ba85fdfc7213",
+        "tensor_id": "0807"
+      },
+      {
+        "bytes": 74048,
+        "git_blob": "29ef20b5f3c2b36724ae62d800c5c473a71c201f",
+        "path": "data/tensors/0807.npy",
+        "role": "tensor",
+        "sha256": "58e74bc0e0c75c90e47db5517f4b42c8e4089c5aa042776250a2c973f3fe637c",
+        "tensor_id": "0807"
+      },
+      {
+        "bytes": 6009,
+        "git_blob": "d4b29a45990690d1da0f66db8b2c76b20b5f06bb",
+        "path": "data/paper/transform/0807.npy",
+        "role": "transform",
+        "sha256": "3f1ccec6d708923b2d96ccd862d1971b1afe860b4b8842643e4d35748d646e96",
+        "tensor_id": "0807"
+      },
+      {
+        "bytes": 408080,
+        "git_blob": "e081f19a2c2dd47304d67ad7560ef67c519a75e5",
+        "path": "data/paper/cpd/topp/0808-00017.npy",
+        "role": "ccz_witness",
+        "sha256": "9e80448f2e270470e47580684cd38219f36963c07dfdd2715c2819a6ce91c5c7",
+        "tensor_id": "0808"
+      },
+      {
+        "bytes": 3438,
+        "git_blob": "ba2b935fb2e9f59177887ea880a6edc14ca43f68",
+        "path": "data/paper/waring/0808-00073.npy",
+        "role": "phase_witness",
+        "sha256": "97ccd6137ba4a71d3fbd678ce6f7e2dc468b7fadb2e439282946b21d6a295511",
+        "tensor_id": "0808"
+      },
+      {
+        "bytes": 12188,
+        "git_blob": "d632734a0653ba5d811df57dce513c17323d2f06",
+        "path": "data/tensors/0808.npy",
+        "role": "tensor",
+        "sha256": "b06dd5470a05da9e565cc054170902929966b5b6c8c33a69071d0913bd987070",
+        "tensor_id": "0808"
+      },
+      {
+        "bytes": 2244,
+        "git_blob": "79156b5d4e7b77f766bb4722d8cfb2a7017dff35",
+        "path": "data/paper/transform/0808.npy",
+        "role": "transform",
+        "sha256": "9ec6d2634833e6a3025cd941a37a210fc9d59d970d976de4e348fee8713afbfa",
+        "tensor_id": "0808"
+      },
+      {
+        "bytes": 719216,
+        "git_blob": "05c2deb8debca5c6df02433edc4836de7cc0bb21",
+        "path": "data/paper/cpd/topp/0809-00033.npy",
+        "role": "ccz_witness",
+        "sha256": "abe32bfdb012774a412c9067a97042ababcc717e41086d62bb0df99d3410a86a",
+        "tensor_id": "0809"
+      },
+      {
+        "bytes": 9807,
+        "git_blob": "291bfcf640b97602782f5a20bba396ded6eba0c3",
+        "path": "data/paper/waring/0809-00137.npy",
+        "role": "phase_witness",
+        "sha256": "9aa2cfd65a8ab80738ddad95d4e6b75d5143ca5322346d8342fdb5cb73b0342b",
+        "tensor_id": "0809"
+      },
+      {
+        "bytes": 7712,
+        "git_blob": "df11e293594af6dea7783bb1c3eb1c437eabf55e",
+        "path": "data/tensors/0809.npy",
+        "role": "tensor",
+        "sha256": "baf87d256981ffa9189d11512d74383eaf444a4f34b79030887ae87a8eb2a12c",
+        "tensor_id": "0809"
+      },
+      {
+        "bytes": 5169,
+        "git_blob": "e74adbfd9c72e86dad8c9823d86603689f756f89",
+        "path": "data/paper/transform/0809.npy",
+        "role": "transform",
+        "sha256": "9064e35eff9acc0f5b7a2e528ddb128cd4226e8f4322e09ededcac700a20aeeb",
+        "tensor_id": "0809"
+      },
+      {
+        "bytes": 22400,
+        "git_blob": "058d4535d98fead1a80a6de587d4678e597dcae1",
+        "path": "data/paper/cpd/topp/0810-00155.npy",
+        "role": "ccz_witness",
+        "sha256": "d641fa83627a232d898ad96fee023db17ba8adc6207702174f84a91102af31f4",
+        "tensor_id": "0810"
+      },
+      {
+        "bytes": 225773,
+        "git_blob": "195bcef42dd3c5b5afe8e2e5ff3efd4271ce17c5",
+        "path": "data/paper/waring/0810-00643.npy",
+        "role": "phase_witness",
+        "sha256": "c562bf86cbcfa06eb9912dd2547110c642bfa5a91670cce8593bf0fb801c8756",
+        "tensor_id": "0810"
+      },
+      {
+        "bytes": 225416,
+        "git_blob": "88acbb80d60ac212c5588e04f7400e7156aa8672",
+        "path": "data/tensors/0810.npy",
+        "role": "tensor",
+        "sha256": "022266e5b09e9692a63038314dfa0ef15dd36bc683d885b1c73f926dd623864b",
+        "tensor_id": "0810"
+      },
+      {
+        "bytes": 123281,
+        "git_blob": "67c637a1bb0fb365e621cd4ca272c0d435655216",
+        "path": "data/paper/transform/0810.npy",
+        "role": "transform",
+        "sha256": "5b49dd952a72b61ee8a0b91450ba6d1cf838b7e6648f3b1d1211e6e7bf1a9c5c",
+        "tensor_id": "0810"
+      },
+      {
+        "bytes": 240080,
+        "git_blob": "7edcc0f7c15d75f63938b3b33bfb200b5611e819",
+        "path": "data/paper/cpd/topp/0811-00010.npy",
+        "role": "ccz_witness",
+        "sha256": "f722c6bd081add9c89dbe51909569c704d277d7ca97197095ff02e78b33b45e8",
+        "tensor_id": "0811"
+      },
+      {
+        "bytes": 1457,
+        "git_blob": "89b7223a281a12f2f6a71fe4cc85df1102963f95",
+        "path": "data/paper/waring/0811-00051.npy",
+        "role": "phase_witness",
+        "sha256": "e5ff69a71daf4e99c18c8c2f030ff926ee87a776cd706ce50c3fb4cade4bde9c",
+        "tensor_id": "0811"
+      },
+      {
+        "bytes": 3404,
+        "git_blob": "a63f8d682b78d2b30099542679c2f31b56098883",
+        "path": "data/tensors/0811.npy",
+        "role": "tensor",
+        "sha256": "675a1c420a2b54ccc83f65b36729f7bb7c7dd818ce046e80c4601a0b47d3ab58",
+        "tensor_id": "0811"
+      },
+      {
+        "bytes": 857,
+        "git_blob": "2127c9cb01f2dcc8b36ab85afb479fda2e163fdf",
+        "path": "data/paper/transform/0811.npy",
+        "role": "transform",
+        "sha256": "6e4431e59b32637a959054163fb698f5a86b530343d0653ba7dabffec1e3b25a",
+        "tensor_id": "0811"
+      },
+      {
+        "bytes": 104,
+        "git_blob": "f4b805d3d79b1c83849cfcb7cc55b1e7a2717017",
+        "path": "data/paper/cpd/topp/0812-00001.npy",
+        "role": "ccz_witness",
+        "sha256": "393f60c38adc4e7edfb2d4af7a02f1b6baecebe9f67cfd46cef5fe8953dbbb6e",
+        "tensor_id": "0812"
+      },
+      {
+        "bytes": 115,
+        "git_blob": "15ff3c45fb93956a65d992cffd33539df5f22de5",
+        "path": "data/paper/waring/0812-00007.npy",
+        "role": "phase_witness",
+        "sha256": "da12fbfe067a3fa9e93c190d4626fc32d7eee56ccb52929946ba4c7177e29e2e",
+        "tensor_id": "0812"
+      },
+      {
+        "bytes": 152,
+        "git_blob": "6995cf251d21f864b70e0ae2b6df0768c3f54742",
+        "path": "data/tensors/0812.npy",
+        "role": "tensor",
+        "sha256": "243348c31027261b61cc06e3effd90c88dc8200210f9cad288c101778c5406bb",
+        "tensor_id": "0812"
+      },
+      {
+        "bytes": 105,
+        "git_blob": "99447334121e7812a30e77d187488f5ab466723c",
+        "path": "data/paper/transform/0812.npy",
+        "role": "transform",
+        "sha256": "a44e129485d495b75c97b8b6db7e82c60de8662e8f965fadbaef41a3f2d4c09f",
+        "tensor_id": "0812"
+      },
+      {
+        "bytes": 18512,
+        "git_blob": "33f8518f15cb3de30de7ab7eeea206e47edf7a62",
+        "path": "data/paper/cpd/topp/0813-00128.npy",
+        "role": "ccz_witness",
+        "sha256": "e722ba4e2d459d77bf1ad732192886bdd8257d8ee6b5be234e450bf4959c2514",
+        "tensor_id": "0813"
+      },
+      {
+        "bytes": 190316,
+        "git_blob": "a75279c42645674c6241a85da39e9b2520027f1b",
+        "path": "data/paper/waring/0813-00573.npy",
+        "role": "phase_witness",
+        "sha256": "97f0fb0fd6a8aca2e8d197b64351bd1dff69d38fc1186ae90b4275748060bb3d",
+        "tensor_id": "0813"
+      },
+      {
+        "bytes": 1552952,
+        "git_blob": "780fc3951ef49c2f16284cdb46d9da10ffb1f435",
+        "path": "data/tensors/0813.npy",
+        "role": "tensor",
+        "sha256": "d2850c6746687272dd5d14c1b9a31a0e1c7406c2d7f95a2a0b30952a62f1fd0d",
+        "tensor_id": "0813"
+      },
+      {
+        "bytes": 110304,
+        "git_blob": "0a73dcc94f65305f666ca548469b0050d9a602e8",
+        "path": "data/paper/transform/0813.npy",
+        "role": "transform",
+        "sha256": "36babf59a65bdcde0e78c96a1d43c807d5c9c6c231f480d8c9e8dad7e02e67e7",
+        "tensor_id": "0813"
+      },
+      {
+        "bytes": 152,
+        "git_blob": "2e43705ae7629c4d1dcfb088e4c628f96ce63a00",
+        "path": "data/paper/cpd/topp/0814-00003.npy",
+        "role": "ccz_witness",
+        "sha256": "debebb994b1b78f17a6dfb99a6f855c7910d6ec4e135e54dba5f21eb0e12160d",
+        "tensor_id": "0814"
+      },
+      {
+        "bytes": 284,
+        "git_blob": "3db48b6fc11cfb5c7db47c167c25829296422620",
+        "path": "data/paper/waring/0814-00017.npy",
+        "role": "phase_witness",
+        "sha256": "a66bb316d3a6d3334ce9f9ee25dc5a3ef38ad7e673033766c9d3413bcd98fb1e",
+        "tensor_id": "0814"
+      },
+      {
+        "bytes": 200,
+        "git_blob": "8784721ba8e0af4ee686c08958b9ef324012b11e",
+        "path": "data/tensors/0814.npy",
+        "role": "tensor",
+        "sha256": "8cc01d8b9a333235a86088a12aaa78de336387117c9deea71a067845d789a1d8",
+        "tensor_id": "0814"
+      },
+      {
+        "bytes": 224,
+        "git_blob": "66eea864f9e2fe6cb848fb7f9e16d96d365023be",
+        "path": "data/paper/transform/0814.npy",
+        "role": "transform",
+        "sha256": "10bab6e4dd5c1ba9e626706e0069e99c00d7208445aa7617ae35a9ed078b12e0",
+        "tensor_id": "0814"
+      },
+      {
+        "bytes": 264080,
+        "git_blob": "573805cd7c529c28ad8807f15276b22b06627d38",
+        "path": "data/paper/cpd/topp/0815-00011.npy",
+        "role": "ccz_witness",
+        "sha256": "3384daf728437c833b7ad7661f9d03834d82c08679a3024b35e19e7fe45a07a6",
+        "tensor_id": "0815"
+      },
+      {
+        "bytes": 1508,
+        "git_blob": "55575c2134d7ec4d496b29a68513f6a2acb0c587",
+        "path": "data/paper/waring/0815-00051.npy",
+        "role": "phase_witness",
+        "sha256": "fd4b691ea30d44407da3cce334a3832b90157a64de83f065122edbac8d234e59",
+        "tensor_id": "0815"
+      },
+      {
+        "bytes": 980,
+        "git_blob": "b997bed0f4d4ea93d1b6a9743e88c403ea68d359",
+        "path": "data/tensors/0815.npy",
+        "role": "tensor",
+        "sha256": "66f3c51c2e3d981613542a5a066ea8b706f355797bbfdfd2ac5eefb318cfade0",
+        "tensor_id": "0815"
+      },
+      {
+        "bytes": 912,
+        "git_blob": "15d65c4b81123daa7423745b86bcb092f01a4dbd",
+        "path": "data/paper/transform/0815.npy",
+        "role": "transform",
+        "sha256": "73d93d4365ec3dad733b9482f2390836f2ba714835df135a482cfaa5be217ff0",
+        "tensor_id": "0815"
+      },
+      {
+        "bytes": 656,
+        "git_blob": "23a9abd4f9fabb844a2875e6cdf956564b4cb440",
+        "path": "data/paper/cpd/topp/0816-00024.npy",
+        "role": "ccz_witness",
+        "sha256": "ea46063c21aa1cec15b1545917fbe2bc87e4d3f5ec18009cf67a7ea566a23abf",
+        "tensor_id": "0816"
+      },
+      {
+        "bytes": 6607,
+        "git_blob": "45a31bdb74cf030b7164d9337975d5f79df89708",
+        "path": "data/paper/waring/0816-00107.npy",
+        "role": "phase_witness",
+        "sha256": "2d25e5946d9f9cc353639bef8ec812d2fee0ab3afbab6d8fbe1a4b34290b6aac",
+        "tensor_id": "0816"
+      },
+      {
+        "bytes": 1616,
+        "git_blob": "326a9caeaafec94c501d6fd82c5639452b1c5cfe",
+        "path": "data/tensors/0816.npy",
+        "role": "tensor",
+        "sha256": "e06350269969aaa807db7207676cadea7240844883a0f3032b218132885bc88a",
+        "tensor_id": "0816"
+      },
+      {
+        "bytes": 3849,
+        "git_blob": "c8ba5523199bbebdddad6c51eaed43d9f9fb0042",
+        "path": "data/paper/transform/0816.npy",
+        "role": "transform",
+        "sha256": "bfc82f985d81ba44d1bd5c1c3b87e7adc88b810598cab06eef9499c77544d386",
+        "tensor_id": "0816"
+      },
+      {
+        "bytes": 1776080,
+        "git_blob": "a4f4b99225e3676a7caf70c58194f374bb8f6f6d",
+        "path": "data/paper/cpd/topp/0818-00037.npy",
+        "role": "ccz_witness",
+        "sha256": "fa4d9532af1a332f282692d161bcdbf84aef7450c7ce5efc568af23c70deb2c5",
+        "tensor_id": "0818"
+      },
+      {
+        "bytes": 12932,
+        "git_blob": "33600c62caf9cd10f02725a31863ce0c56912860",
+        "path": "data/paper/waring/0818-00153.npy",
+        "role": "phase_witness",
+        "sha256": "f100485af071eec4bf75ba8c205612c8f5d7eaca5d1af42d5d5d28abb3485c74",
+        "tensor_id": "0818"
+      },
+      {
+        "bytes": 25820,
+        "git_blob": "f7fc4ab2c9447c8c7337b28c0cb72259fb23e815",
+        "path": "data/tensors/0818.npy",
+        "role": "tensor",
+        "sha256": "1e735d57dc8754206e6594875a8676d69b700bdc79b835a776828156ff126d0a",
+        "tensor_id": "0818"
+      },
+      {
+        "bytes": 7184,
+        "git_blob": "6b263ab21511d53598a59883869458ce909839ef",
+        "path": "data/paper/transform/0818.npy",
+        "role": "transform",
+        "sha256": "b8e33794540cc554ded91ff5d1472165143f5cd10738f60ac1d61b13030cefd1",
+        "tensor_id": "0818"
+      },
+      {
+        "bytes": 224,
+        "git_blob": "ff8d039e0bedb313eb5e6cf5e947986ed4bc3f79",
+        "path": "data/paper/cpd/topp/0819-00006.npy",
+        "role": "ccz_witness",
+        "sha256": "d453e6380321467a395dec4c4a26cda2e7a4ba95631674ceeac4fdf4181cd9b7",
+        "tensor_id": "0819"
+      },
+      {
+        "bytes": 968,
+        "git_blob": "766042953080d2005a9d4325a347ab66752c4807",
+        "path": "data/paper/waring/0819-00037.npy",
+        "role": "phase_witness",
+        "sha256": "f6f5fd7efe875b11ba7e38385594bc4c6816eb80383bf2ac56c26b0aac544e9f",
+        "tensor_id": "0819"
+      },
+      {
+        "bytes": 344,
+        "git_blob": "7c370fe20ec1c14b9c8e369437c7e79d893f31d4",
+        "path": "data/tensors/0819.npy",
+        "role": "tensor",
+        "sha256": "f68be401d5e528c40c4c3ccbeb0cd08c00d1136c2371cede42145bf97c3fb78e",
+        "tensor_id": "0819"
+      },
+      {
+        "bytes": 656,
+        "git_blob": "0c6fffb26c49f9bc34814c36cf810a8635f6ac56",
+        "path": "data/paper/transform/0819.npy",
+        "role": "transform",
+        "sha256": "cfa3bbe52d5dfcdddc046be88491232ee284d4815f53d66c132ac6b9fe8abb80",
+        "tensor_id": "0819"
+      },
+      {
+        "bytes": 128,
+        "git_blob": "090ecc63220dfb6d251b7ecabd6cc0ad9c2b87d9",
+        "path": "data/paper/cpd/topp/0820-00002.npy",
+        "role": "ccz_witness",
+        "sha256": "3a5401fd16970bd01476f92a1bd991f93913921a2ab6a589501f8c2a1b27d8d9",
+        "tensor_id": "0820"
+      },
+      {
+        "bytes": 171,
+        "git_blob": "76eea67203ae51cb50ada40b2e4a8eaf86f858f6",
+        "path": "data/paper/waring/0820-00013.npy",
+        "role": "phase_witness",
+        "sha256": "26c27fe49d184a28e468267c00ae9c166db684c76c7bd7b4cb082c9c00d9b5fe",
+        "tensor_id": "0820"
+      },
+      {
+        "bytes": 128,
+        "git_blob": "d6d301e38135222c38753d00e51d2af3e6747309",
+        "path": "data/tensors/0820.npy",
+        "role": "tensor",
+        "sha256": "86819b9a706b7b05ed60aef272c5c6e1242dc6e4f21728819bf143036e4991ca",
+        "tensor_id": "0820"
+      },
+      {
+        "bytes": 129,
+        "git_blob": "f9077c1f4ce0f5def7de68478022419432599a6d",
+        "path": "data/paper/transform/0820.npy",
+        "role": "transform",
+        "sha256": "d1fd4b14dcfab3a18610cf1f40bdba51ea16e210f9e025fe14b467b72046fe6a",
+        "tensor_id": "0820"
+      },
+      {
+        "bytes": 152,
+        "git_blob": "4d14fdf9a784cd9a759bab5d90e917ca85c0c4e4",
+        "path": "data/paper/cpd/topp/0821-00003.npy",
+        "role": "ccz_witness",
+        "sha256": "c52dee4d760ab92ef8f3a7457b1c0f1a573f6bcd3a229982a92f5e8c0f927c67",
+        "tensor_id": "0821"
+      },
+      {
+        "bytes": 289,
+        "git_blob": "fee50a28672d2d34776988c11f2125b3fbac978d",
+        "path": "data/paper/waring/0821-00019.npy",
+        "role": "phase_witness",
+        "sha256": "35ca81771e9478a6994c49a34e8e48dfc0bb38f06a7cdd56fe7ebc17fc430116",
+        "tensor_id": "0821"
+      },
+      {
+        "bytes": 188,
+        "git_blob": "eb964735882ad406813072b04fa4d31128b1b0ad",
+        "path": "data/tensors/0821.npy",
+        "role": "tensor",
+        "sha256": "0678c90c18f699686d64b02681b01212264347a7575e321262f5bb6c387eaa72",
+        "tensor_id": "0821"
+      },
+      {
+        "bytes": 201,
+        "git_blob": "7436fe9b7e0b3d659d8f761f451560cebcd52c68",
+        "path": "data/paper/transform/0821.npy",
+        "role": "transform",
+        "sha256": "00bb4497787a18c6c58c0665377c10a396267a3b29c608abeec5085d67fddb6f",
+        "tensor_id": "0821"
+      },
+      {
+        "bytes": 176,
+        "git_blob": "9bcaa559b29dfd5969fc60f5056f9afa8103e0a2",
+        "path": "data/paper/cpd/topp/0822-00004.npy",
+        "role": "ccz_witness",
+        "sha256": "b87aae543fd0a9700f7281f67c643e6318a458a4bbae589ff78c0ccebb0f383a",
+        "tensor_id": "0822"
+      },
+      {
+        "bytes": 455,
+        "git_blob": "cc47522723ee8f4c6d95d8ac52a3360230250bc8",
+        "path": "data/paper/waring/0822-00025.npy",
+        "role": "phase_witness",
+        "sha256": "4ff48287e131ed0f1e8581d9e46d6c165697752d815e478d0e520acc12c55e60",
+        "tensor_id": "0822"
+      },
+      {
+        "bytes": 272,
+        "git_blob": "3df9743dad57867735c7d5ecf5009b0e67d0f0af",
+        "path": "data/tensors/0822.npy",
+        "role": "tensor",
+        "sha256": "9408bc61d8777e90936d1c79c92144d248cdf6d057816772c9b4d5d5a169a1c6",
+        "tensor_id": "0822"
+      },
+      {
+        "bytes": 305,
+        "git_blob": "cec77979e1246d0a8a32e8a055f56a7d4bbd9eb8",
+        "path": "data/paper/transform/0822.npy",
+        "role": "transform",
+        "sha256": "11763455f99a3bf1d0759d93a34a0aacb22f0906ff90f8b16e40ffb597e75389",
+        "tensor_id": "0822"
+      },
+      {
+        "bytes": 296,
+        "git_blob": "152528f5b1cc0f01d4e2da3835a5c3af0e4fb401",
+        "path": "data/paper/cpd/topp/0823-00009.npy",
+        "role": "ccz_witness",
+        "sha256": "4aea56a286beb7ac96b29a7ffd80bb4607d75a0259a737490392d7e5cf6a3740",
+        "tensor_id": "0823"
+      },
+      {
+        "bytes": 2005,
+        "git_blob": "bc195c581d23a2bc1c0f9626be7e4e84813b2adc",
+        "path": "data/paper/waring/0823-00055.npy",
+        "role": "phase_witness",
+        "sha256": "46ea0f0dfd5c28aeeb6146edb9e48b916542c26fe95f3f9aed3875b1ca73fd3f",
+        "tensor_id": "0823"
+      },
+      {
+        "bytes": 812,
+        "git_blob": "917b6725d7c72352506c2c311dc488c271e98678",
+        "path": "data/tensors/0823.npy",
+        "role": "tensor",
+        "sha256": "7115f177cafd3c7f4a4e61db1a0e2017dcebd09b198be23eb72f82df282b575d",
+        "tensor_id": "0823"
+      },
+      {
+        "bytes": 1305,
+        "git_blob": "8bda4f0a4cee4afb42f01ccd5d5cca6a74384d83",
+        "path": "data/paper/transform/0823.npy",
+        "role": "transform",
+        "sha256": "3fd898fa56ec1eef34961c1104e35abee32d2d425814ab4378a22d67bbd5d147",
+        "tensor_id": "0823"
+      },
+      {
+        "bytes": 152,
+        "git_blob": "56bff0ffe485372f3c3ed75b7ee72f965bc1b8a7",
+        "path": "data/paper/cpd/topp/0824-00003.npy",
+        "role": "ccz_witness",
+        "sha256": "0e3cb60f2abdaaa364e45c929d7f3959fe124b1ab47a921a9b6e351fd09ba063",
+        "tensor_id": "0824"
+      },
+      {
+        "bytes": 346,
+        "git_blob": "b9a397c5dcdb330f413e83db5c71fb454b5664b0",
+        "path": "data/paper/waring/0824-00019.npy",
+        "role": "phase_witness",
+        "sha256": "f1fa5721aa01389365e4e98fdd802b219a6f7ee316de44f5caf25b0e8c6954ac",
+        "tensor_id": "0824"
+      },
+      {
+        "bytes": 572,
+        "git_blob": "130e50fd4a86534663761bd4e4b80109603f42d1",
+        "path": "data/tensors/0824.npy",
+        "role": "tensor",
+        "sha256": "7bba1e83f1b81c7deb69a80ba638bbd920b2a1346146ec4864d780fc8a2a2433",
+        "tensor_id": "0824"
+      },
+      {
+        "bytes": 276,
+        "git_blob": "fe02e498126c32074703e0884af4e62d7325e84c",
+        "path": "data/paper/transform/0824.npy",
+        "role": "transform",
+        "sha256": "bdd74b64e1540985532a8adaee12f0372df5b0b735241ba5e30dfc88c1dbbd21",
+        "tensor_id": "0824"
+      }
+    ],
+    "repository": "https://github.com/ZIB-IOL/polytof"
+  }
+}

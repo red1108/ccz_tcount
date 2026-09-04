@@ -1,92 +1,153 @@
-# CCZ-to-T benchmark verification
+# ccz-certify
 
-Reproducible benchmark certificates accompanying **Which CCZ Circuits Require the Most T Gates?**
+**Certify phase T-counts for your own CNOT/CCZ blocks.**
 
-This repository contains the verifier, the 60-target benchmark manifest, regression tests, and a recorded run. It checks the released Polytof witnesses against the original tensors and computes active-dimension lower bounds. The recorded result is **47 exact phase counts and 13 targets not certified by these bounds**. It also certifies the displayed CCZ count on 35 targets.
+Give the tool a circuit, cubic target, or parity decomposition. It computes a lower bound, constructs a phase witness, and checks its full signature. When the bounds meet, you get an exact phase T-count. Otherwise, you get a verified interval and the witness supporting its upper bound.
 
-The scope is exact phase synthesis of fixed pure-cubic targets. These certificates do not establish global optimality after changing Hadamard gadgets, measurements, feed-forward, or ancilla choices.
+This repository accompanies *Which CCZ Circuits Require the Most T Gates?* It also preserves the code and execution records behind **47 exact phase counts across 60 published benchmark targets**.
 
-## Reproduce
+[Quick start](#quick-start) · [Input formats](docs/INPUT_FORMAT.md) · [How certificates work](docs/CERTIFICATES.md) · [Benchmark evidence](#reproduce-the-published-benchmarks)
 
-Use Python 3.11 or newer. The recorded environment is Python 3.12.14 and NumPy 2.3.5.
+## Quick start
+
+Use Python 3.11 or newer. From a checkout of this repository:
 
 ```sh
 python3 -m venv .venv
 source .venv/bin/activate
-python -m pip install -r requirements.txt
+python -m pip install -e .
+ccz-certify examples/three_ccz_dependent.json --output runs/my-certificate.json
+```
+
+On Windows PowerShell, activate the environment with `.venv\Scripts\Activate.ps1` instead. The custom-circuit certifier uses only Python's standard library; NumPy is needed only for the published benchmark files.
+
+Expected output:
+
+```text
+Phase T-count: 17 (exact)
+CCZ count:     3 (exact)
+Active dimension: 8
+Verified phase witness: 17 terms
+Scope: fixed pure-cubic phase target, up to free Clifford corrections.
+```
+
+The JSON certificate contains the bounds, a verified parity-phase witness, any merge-pivot relation used in that construction, and hashes identifying the input and tool source. Existing output files are preserved unless you pass `--force`.
+
+You can also run `python -m ccz_certify ...` directly from the checkout.
+
+## Put in your own circuit
+
+Save this as `my-circuit.json`:
+
+```json
+{
+  "schema_version": 1,
+  "n_qubits": 3,
+  "gates": [
+    {"gate": "ccz", "qubits": [0, 1, 2]}
+  ]
+}
+```
+
+Then run:
+
+```sh
+ccz-certify my-circuit.json --output runs/my-circuit-certificate.json
+```
+
+This certifies a phase T-count of **7** and a CCZ count of **1**. Qubit indices start at zero. For a CNOT, `{"gate": "cx", "qubits": [control, target]}` gives the direction explicitly.
+
+The circuit reader tracks parities through `cx`/`cnot` and `swap`, and accepts `ccz`, `x`, `z`, `s`, `sdg`, `cz`, and `id`. It also accepts `t` and `tdg` when their **combined full signature is pure cubic**. Hadamards, measurements, resets, and other unsupported operations produce an error rather than being dropped.
+
+Already have an algebraic representation? Use `cubic_terms`, `ccz_atoms`, or `phase_terms` instead of `gates`. Optional `ccz_witness` and `phase_witness` fields let you check an optimizer's output or supply a better decomposition. See the [complete input reference](docs/INPUT_FORMAT.md).
+
+## Understand the result
+
+| Phase verdict | Meaning |
+| --- | --- |
+| `exact` | A verified witness meets the lower bound: the target's minimum phase T-count is certified. |
+| `bounded` | The tool has valid lower and upper bounds, but has not proved the optimum. The minimum is odd for a nonzero target. |
+| `unsupported` / `invalid` | The input is outside the implemented model, malformed, or contains a witness that fails verification. No certificate is issued. |
+
+The top-level verdict concerns **phase T-count**. CCZ-count exactness is a separate field. A certified optimum for the target does not mean that every supplied gate list or witness is already optimal; `certified_minimum_as_supplied` records that distinction for optional witnesses.
+
+Try the included examples:
+
+| Input | Phase result | What it illustrates |
+| --- | --- | --- |
+| [One CCZ](examples/ccz.json) | **7**, exact | Minimal circuit input |
+| [Three independent interactions](examples/three_ccz_independent.json) | **19**, exact | Full-rank case |
+| [Three dependent interactions](examples/three_ccz_dependent.json) | **17**, exact | A relation involving all three interactions |
+| [Computed parities](examples/computed_parities.json) | **11**, exact | Input after parity tracking |
+| [A supplied phase witness](examples/ccz_with_witness.json) | **7**, exact | Check an existing synthesis result |
+| [A remaining gap](examples/bounded.json) | **[13, 15]**, bounded | Valid bounds without an exact certificate |
+
+For scripts and CI:
+
+```sh
+ccz-certify my-circuit.json --json
+ccz-certify my-circuit.json --require-exact
+```
+
+Exit code `0` means a valid result was produced, including a bounded result. With `--require-exact`, a bounded result exits `1`. Invalid or unsupported inputs exit `2`.
+
+### Scope
+
+Certificates apply to **exact parity-phase synthesis of a fixed pure-cubic target**, with Clifford corrections and the final affine wire map free. All input bits are treated as independent variables; initialized-ancilla promises are not inferred. These certificates do not establish unrestricted Clifford+T optimality after introducing Hadamards, measurements, or different ancilla/gadget choices.
+
+The exported witness is a list of parities carrying odd phases. It matches the target's full signature; a Clifford correction may still be needed to implement the original unitary. It is not a complete compiled gate sequence.
+
+The method can close many bounds, but it is not a general tensor-rank solver. [The certificate method](docs/CERTIFICATES.md) explains exactly what each verdict proves.
+
+## Use it from Python
+
+```python
+import json
+from ccz_certify import certify
+
+with open("my-circuit.json") as stream:
+    result = certify(json.load(stream))
+
+print(result["phase_count"]["lower_bound"])
+print(result["phase_count"]["upper_bound"])
+print(result["phase_count"]["witness"])
+```
+
+`certify()` performs the same checks as the CLI and raises `CertificateError` for invalid or unsupported inputs. It accepts ordinary Python lists and integers, and does not fetch data or write files. Binary matrices should first be converted to index-support lists as shown in the input reference. This makes it suitable for use after your own circuit generator or optimizer.
+
+## Reproduce the published benchmarks
+
+The original Polytof benchmark verifier and its recorded runs remain separate from the custom-input interface.
+
+```sh
+python -m pip install -e '.[benchmarks]'
 python scripts/reproduce.py --compare records/2026-09-04
 ```
 
-The runner fetches the public Polytof repository into `.cache/polytof`, checks out the exact commit in the manifest, verifies input-file contents against that Git tree, runs the regression tests and all 60 witness checks, and writes a new record under `runs/`. It compares numerical results and input hashes with the committed reference run. Timestamps and environment metadata may differ.
+The runner fetches Polytof at the manifest's pinned commit, checks all 240 consumed files against that Git tree, runs the regression tests and 60 witness checks, and records a fresh run under `runs/`. You may supply an existing clean checkout with `--polytof /path/to/polytof`.
 
-To reuse an existing clean checkout at the pinned commit:
+The reference result is **47 exact phase counts, 13 not certified by these bounds, and 35 certified CCZ counts**. The two separately reported VarTODD bounds are kept distinct from locally verified witnesses.
 
-```sh
-python scripts/reproduce.py --polytof /path/to/polytof --compare records/2026-09-04
-```
+- [Reference run](records/2026-09-04/summary.md) and [fresh-checkout reproduction](records/2026-09-04-clean-checkout/summary.md).
+- [All 60 results as JSON](records/2026-09-04/verification.json) or [CSV](records/2026-09-04/results.csv).
+- [Regression-test log](records/2026-09-04/tests.log), [verifier log](records/2026-09-04/verification.log), and [run metadata](records/2026-09-04/run.json).
+- [Input hashes and Git blob IDs](records/2026-09-04/inputs.json), [record checksums](records/2026-09-04/SHA256SUMS), and [source provenance](docs/SOURCES.md).
+- [Verification details](benchmarks/README.md) and the [audit note about the repeated-index correction](docs/AUDIT.md).
 
-To choose a new output directory:
-
-```sh
-python scripts/reproduce.py --output runs/my-check
-```
-
-The runner refuses to overwrite an existing record. All saved commands use portable path labels; personal filesystem paths and hostnames are not included in the published records. A failed run is marked failed and retains its diagnostic logs.
-
-## Inspect the recorded evidence
-
-- [Run summary](records/2026-09-04/summary.md): aggregate results and verification scope.
-- [Fresh-checkout reproduction](records/2026-09-04-clean-checkout/summary.md): a second run from a separate local Git clone, matching all results and input hashes.
-- [Per-target JSON](records/2026-09-04/verification.json) and [CSV](records/2026-09-04/results.csv): all 60 witness lengths, active dimensions, bounds, and classifications.
-- [Test log](records/2026-09-04/tests.log) and [verifier log](records/2026-09-04/verification.log): actual subprocess output and exit status in `run.json`.
-- [Input provenance](records/2026-09-04/inputs.json): upstream paths, file sizes, SHA-256 hashes, and Git blob IDs for every consumed tensor, transform, and witness.
-- [Run metadata](records/2026-09-04/run.json): UTC times, Python/NumPy versions, source commit, and source-file hashes.
-- [SHA256SUMS](records/2026-09-04/SHA256SUMS): integrity hashes for the record files.
-
-Check a saved record without downloading data:
+Check the recorded evidence without downloading the upstream data:
 
 ```sh
-python scripts/reproduce.py --check-records records/2026-09-04
+make check-records
 ```
 
-Hashes identify the recorded bytes; independent reproduction checks the calculations.
-
-## What is proved by the checks?
-
-For a nonzero alternating target, the paper gives
-
-$$2d+1 \le p(\Theta) \le 6c(\Theta)+1,\qquad d\le3c(\Theta).$$
-
-Here `d` is the active dimension of the target, `m` is a released CCZ-witness length, and `q` is a released phase-witness length. Neither witness length is assumed minimal. A verified witness with `q = 2d+1` proves the exact phase count. If additionally `d = 3m` or `d = 3m-1`, the displayed CCZ count is also certified minimal.
-
-| Class | Condition | Conclusion |
-| --- | --- | --- |
-| C0 | `d = 3m`, `q = 6m+1` | Exact phase and CCZ counts |
-| C1 | `d = 3m-1`, `q = 6m-1` | Exact phase and CCZ counts |
-| L | `q = 2d+1`, outside C0/C1 | Exact phase count |
-| U | None of these equalities applies | These checks do not certify optimality |
-
-The Waring verifier checks the **full symmetric signature**, including repeated-index entries. Matching only distinct-index cubic coefficients is insufficient. See [verification details](benchmarks/README.md) and the [audit note](docs/AUDIT.md).
-
-The manifest separately records two literature upper bounds, 135 and 631, from VarTODD. Their witnesses are not validated by this repository and they do not contribute to the 47 exact certificates. The CSV keeps released and reported bounds in separate columns.
-
-## Files
-
-- `benchmarks/`: the code used for the paper, its manifest, regression tests, and the manuscript's table excerpt.
-- `scripts/reproduce.py`: record generation, provenance checks, result comparison, and record-integrity checking.
-- `records/`: committed reference evidence; each directory is one actual run.
-- `runs/`, `.cache/`, `.venv/`: local generated material, excluded from Git.
-- [Source provenance](docs/SOURCES.md) and [audit history](docs/AUDIT.md).
-
-The full manuscript and third-party benchmark data are not bundled. Upstream data are retrieved at the recorded commit and retain their upstream license.
-
-## Connect GitHub later
-
-Create an empty GitHub repository, then run from this directory:
+## Tests and license
 
 ```sh
-git remote add origin <YOUR_GITHUB_REPOSITORY_URL>
-git push -u origin main
+python -m unittest discover -s tests -v
+# With the benchmark extra installed:
+make test
 ```
 
-This local repository has no remote configured. Its existing history and evidence can be pushed as-is.
+Tests cover exact and bounded examples, zero targets, unsupported gates, invalid witnesses, direct full-tensor comparisons, and exhaustive small-circuit checks up to Clifford corrections. The [custom-interface validation record](records/custom-inputs-2026-09-04/README.md) also cross-checks all 60 published targets and verifies an installation without NumPy.
+
+The code is available under the [MIT license](LICENSE). Third-party benchmark files are fetched separately and retain their upstream license. Reuse the API in your own projects, and retain the required license notice when redistributing the code.

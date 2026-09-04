@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "name": "Figure 1 independent case",
+  "n_qubits": 9,
+  "gates": [
+    {
+      "gate": "cx",
+      "qubits": [
+        3,
+        0
+      ]
+    },
+    {
+      "gate": "cx",
+      "qubits": [
+        6,
+        3
+      ]
+    },
+    {
+      "gate": "cx",
+      "qubits": [
+        0,
+        6
+      ]
+    },
+    {
+      "gate": "ccz",
+      "qubits": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "gate": "ccz",
+      "qubits": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "gate": "ccz",
+      "qubits": [
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "gate": "cx",
+      "qubits": [
+        0,
+        6
+      ]
+    },
+    {
+      "gate": "cx",
+      "qubits": [
+        6,
+        3
+      ]
+    },
+    {
+      "gate": "cx",
+      "qubits": [
+        3,
+        0
+      ]
+    }
+  ]
+}

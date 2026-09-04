@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "name": "One CCZ",
+  "n_qubits": 3,
+  "gates": [
+    {
+      "gate": "ccz",
+      "qubits": [
+        0,
+        1,
+        2
+      ]
+    }
+  ]
+}

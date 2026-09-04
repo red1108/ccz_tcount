@@ -1,0 +1,31 @@
+.venv/bin/python -m unittest discover -s tests -v
+test_affine_and_clifford_gates (test_certify.CertificateTests.test_affine_and_clifford_gates) ... ok
+test_bad_phase_witnesses (test_certify.CertificateTests.test_bad_phase_witnesses) ... ok
+test_documented_examples (test_certify.CertificateTests.test_documented_examples) ... ok
+test_full_rank_and_sharp_gap_families (test_certify.CertificateTests.test_full_rank_and_sharp_gap_families) ... ok
+test_malformed_inputs_are_rejected (test_certify.CertificateTests.test_malformed_inputs_are_rejected) ... ok
+test_nonminimal_supplied_witnesses (test_certify.CertificateTests.test_nonminimal_supplied_witnesses) ... ok
+test_phase_exactness_is_separate_from_ccz_exactness (test_certify.CertificateTests.test_phase_exactness_is_separate_from_ccz_exactness) ... ok
+test_pure_cubic_t_circuit_and_phase_list (test_certify.CertificateTests.test_pure_cubic_t_circuit_and_phase_list) ... ok
+test_random_atom_witnesses_against_full_dense_tensor (test_certify.CertificateTests.test_random_atom_witnesses_against_full_dense_tensor) ... ok
+test_resource_guard_is_explicit_and_configurable (test_certify.CertificateTests.test_resource_guard_is_explicit_and_configurable) ... ok
+test_unsupported_model_is_rejected (test_certify.CertificateTests.test_unsupported_model_is_rejected) ... ok
+test_zero_and_cancelled_targets (test_certify.CertificateTests.test_zero_and_cancelled_targets) ... ok
+test_duplicate_json_and_unsupported_errors (test_certify.CliTests.test_duplicate_json_and_unsupported_errors) ... ok
+test_exact_bounded_and_require_exact (test_certify.CliTests.test_exact_bounded_and_require_exact) ... ok
+test_output_roundtrip_and_no_overwrite (test_certify.CliTests.test_output_roundtrip_and_no_overwrite) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.100s
+
+OK
+.venv/bin/python -m unittest discover -s benchmarks -p 'test_verify_polytof.py' -v
+test_extra_linear_phase_is_not_a_clifford_correction (test_verify_polytof.WaringSignatureTests.test_extra_linear_phase_is_not_a_clifford_correction) ... ok
+test_extra_quadratic_phase_is_not_a_clifford_correction (test_verify_polytof.WaringSignatureTests.test_extra_quadratic_phase_is_not_a_clifford_correction) ... ok
+test_fractional_entries_are_not_binary (test_verify_polytof.WaringSignatureTests.test_fractional_entries_are_not_binary) ... ok
+test_seven_term_ccz (test_verify_polytof.WaringSignatureTests.test_seven_term_ccz) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.007s
+
+OK

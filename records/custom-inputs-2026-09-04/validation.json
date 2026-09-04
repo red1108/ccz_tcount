@@ -1,0 +1,18 @@
+{
+  "completed_at": "2026-09-04T21:51:37+00:00",
+  "exact_phase_counts": 47,
+  "kind": "custom_interface_validation",
+  "published_targets_crosschecked": 60,
+  "schema_version": 1,
+  "separate_wheel_install_without_numpy": "passed",
+  "source_sha256": {
+    "ccz_certify/__init__.py": "df1cfb147c578db17c6fe27d7e5b7f10327140a5e133002b86785b652a11b829",
+    "ccz_certify/__main__.py": "fc0f627bf0d094faff2401376e7a2527666cf9d8663e96e0e57aa2c8f2751aa9",
+    "ccz_certify/core.py": "66f9efbe71af412c32a0b4f538904022bd88b332020e9c4f1ff2c173dea39b13",
+    "pyproject.toml": "613b5316fdc216813840a5b28260d43db7af3fea6673f70e87351c8900ecccf6",
+    "scripts/check_custom_benchmarks.py": "4266b6bb9756cb29e9dd42cc93784ed68a7d4db03f2a8ef21381ef93704e0ab6",
+    "tests/test_certify.py": "c9c8e82e4db1009613aedf05ac15ae30df5e8e5fd6a11e981944b2c3104c6872"
+  },
+  "status": "passed",
+  "unit_and_regression_tests_passed": 19
+}
