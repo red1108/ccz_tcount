@@ -1,0 +1,9 @@
+test_extra_linear_phase_is_not_a_clifford_correction (test_verify_polytof.WaringSignatureTests.test_extra_linear_phase_is_not_a_clifford_correction) ... ok
+test_extra_quadratic_phase_is_not_a_clifford_correction (test_verify_polytof.WaringSignatureTests.test_extra_quadratic_phase_is_not_a_clifford_correction) ... ok
+test_fractional_entries_are_not_binary (test_verify_polytof.WaringSignatureTests.test_fractional_entries_are_not_binary) ... ok
+test_seven_term_ccz (test_verify_polytof.WaringSignatureTests.test_seven_term_ccz) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.005s
+
+OK

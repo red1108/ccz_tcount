@@ -1,0 +1,56 @@
+{
+  "commands": [
+    {
+      "argv": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "benchmarks",
+        "-p",
+        "test_verify_polytof.py",
+        "-v"
+      ],
+      "duration_seconds": 0.126,
+      "exit_code": 0,
+      "name": "regression_tests"
+    },
+    {
+      "argv": [
+        "python",
+        "benchmarks/verify_polytof.py",
+        "<repository>/.cache/polytof",
+        "--format",
+        "json"
+      ],
+      "duration_seconds": 9.981,
+      "exit_code": 0,
+      "name": "benchmark_verifier"
+    }
+  ],
+  "completed_at": "2026-09-04T21:22:38+00:00",
+  "duration_seconds": 21.582,
+  "environment": {
+    "architecture": "arm64",
+    "git": "git version 2.50.1 (Apple Git-155)",
+    "numpy": "2.3.5",
+    "os": "Darwin",
+    "python": "3.12.14"
+  },
+  "schema_version": 1,
+  "source": {
+    "git_commit": "e661e48d5aa00c7534f4d71d3bd5a40bcee5fdbf",
+    "sha256": {
+      "benchmarks/benchmark_tables.tex": "781f0beeacf8d44d38a8ce77680e64adc63bc296dfe92e8026cefb215b905fde",
+      "benchmarks/polytof_manifest.json": "bdb9acdfdf23e7efaafd4194d78885c105c11a6073f8e6b6f3ec02f450c8b6e8",
+      "benchmarks/test_verify_polytof.py": "d25fa5b8fbaa6ed950b5e7330a58d475f9ea742e77fe30e5128139bbef712c8b",
+      "benchmarks/verify_polytof.py": "8b490178e8a382faccec8323191a99e7082458c829b6ed6324fa4cfa96dd2c89",
+      "requirements.txt": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7",
+      "scripts/reproduce.py": "ff5ebf507e6f4ea59a0e379e7b54c1bd9aa99e4935a1dd4f849fe6c5dd569a83"
+    },
+    "tracked_source_clean": true
+  },
+  "started_at": "2026-09-04T21:22:17+00:00",
+  "status": "passed"
+}
